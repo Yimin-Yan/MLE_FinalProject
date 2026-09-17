@@ -20,3 +20,7 @@ m2_debian13_smoke:
   script:
     - .m2-venv/bin/python -m pip install --requirement src/m2/requirements.txt
     - .m2-venv/bin/python src/m2/verify_delivery.py
+  rules:
+    - changes:
+        - .gitlab-ci.yml
+        - src/m2/**/*
