@@ -30,6 +30,10 @@ def _sha256(path: Path) -> str:
     return digest.hexdigest().upper()
 
 
+def _normalize_newlines(payload: bytes) -> bytes:
+    return payload.replace(b"\r\n", b"\n").replace(b"\r", b"\n")
+
+
 def _torch_library_path() -> Path:
     specification = importlib.util.find_spec("torch")
     if specification is None or not specification.submodule_search_locations:
@@ -86,6 +90,7 @@ def _verify_archive() -> tuple[dict, Path]:
         raise RuntimeError("Submission archive SHA-256 does not match the manifest")
 
     expected_members = sorted(manifest["members"])
+    archived_payloads: dict[str, bytes] = {}
     with zipfile.ZipFile(archive) as bundle:
         if bundle.testzip() is not None:
             raise RuntimeError("Submission archive failed its CRC check")
@@ -93,12 +98,21 @@ def _verify_archive() -> tuple[dict, Path]:
             raise RuntimeError("Submission archive members do not match the manifest")
         for member in expected_members:
             name = Path(member).name
-            digest = hashlib.sha256(bundle.read(member)).hexdigest().upper()
+            payload = bundle.read(member)
+            archived_payloads[name] = payload
+            digest = hashlib.sha256(payload).hexdigest().upper()
             if digest != manifest["member_sha256"][name]:
                 raise RuntimeError(f"Archive member hash mismatch: {member}")
 
     for name, expected_hash in manifest["member_sha256"].items():
-        if _sha256(AGENT_DIR / name) != expected_hash:
+        source_path = AGENT_DIR / name
+        if name.endswith(".py"):
+            matches_archive = _normalize_newlines(
+                source_path.read_bytes()
+            ) == _normalize_newlines(archived_payloads[name])
+        else:
+            matches_archive = _sha256(source_path) == expected_hash
+        if not matches_archive:
             raise RuntimeError(f"Source package hash mismatch: {name}")
     return manifest, archive
 
