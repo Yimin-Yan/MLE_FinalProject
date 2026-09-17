@@ -1,0 +1,26 @@
+stages:
+  - test
+
+m2_debian13_smoke:
+  stage: test
+  image: debian:13-slim
+  timeout: 20m
+  variables:
+    PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+    PIP_DISABLE_PIP_VERSION_CHECK: "1"
+  cache:
+    key: "m2-debian13-pip"
+    paths:
+      - .cache/pip/
+  before_script:
+    - apt-get update
+    - apt-get install --yes --no-install-recommends binutils ca-certificates python3 python3-venv
+    - python3 -m venv .m2-venv
+    - .m2-venv/bin/python -m pip install --upgrade pip
+  script:
+    - .m2-venv/bin/python -m pip install --requirement src/m2/requirements.txt
+    - .m2-venv/bin/python src/m2/verify_delivery.py
+  rules:
+    - changes:
+        - .gitlab-ci.yml
+        - src/m2/**/*
