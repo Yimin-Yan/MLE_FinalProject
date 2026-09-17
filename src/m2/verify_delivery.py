@@ -11,15 +11,28 @@ import platform
 import shutil
 import subprocess
 import sys
-import zipfile
 
 
 M2_ROOT = Path(__file__).resolve().parent
 AGENT_DIR = M2_ROOT / "m2_final_submission"
-PACKAGE_DIR = M2_ROOT / "package"
 EXPECTED_NUMPY_VERSION = "2.5.3"
 EXPECTED_TORCH_VERSION = "2.11.0"
 EXPECTED_POLICY_TENSORS = 19
+EXPECTED_AGENT_FILES = sorted(
+    [
+        "__init__.py",
+        "callbacks.py",
+        "config.py",
+        "features.py",
+        "model.pt",
+        "model.py",
+        "planner.py",
+        "rule_policy.py",
+    ]
+)
+EXPECTED_MODEL_SHA256 = (
+    "B2148629D65E5C6E5866214884BD015D9ECD2D7F84EA121C425BE0EBD71748D6"
+)
 
 
 def _sha256(path: Path) -> str:
@@ -28,10 +41,6 @@ def _sha256(path: Path) -> str:
         for chunk in iter(lambda: handle.read(1024 * 1024), b""):
             digest.update(chunk)
     return digest.hexdigest().upper()
-
-
-def _normalize_newlines(payload: bytes) -> bytes:
-    return payload.replace(b"\r\n", b"\n").replace(b"\r", b"\n")
 
 
 def _torch_library_path() -> Path:
@@ -79,42 +88,12 @@ def _verify_linux_stack_flag() -> str:
     return flags
 
 
-def _verify_archive() -> tuple[dict, Path]:
-    manifest_path = PACKAGE_DIR / "submission_manifest.json"
-    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
-    if manifest.get("status") != "PASS" or not manifest.get("inference_only"):
-        raise RuntimeError("Submission manifest is not an inference-only PASS")
-
-    archive = PACKAGE_DIR / manifest["archive"]
-    if _sha256(archive) != manifest["archive_sha256"]:
-        raise RuntimeError("Submission archive SHA-256 does not match the manifest")
-
-    expected_members = sorted(manifest["members"])
-    archived_payloads: dict[str, bytes] = {}
-    with zipfile.ZipFile(archive) as bundle:
-        if bundle.testzip() is not None:
-            raise RuntimeError("Submission archive failed its CRC check")
-        if sorted(bundle.namelist()) != expected_members:
-            raise RuntimeError("Submission archive members do not match the manifest")
-        for member in expected_members:
-            name = Path(member).name
-            payload = bundle.read(member)
-            archived_payloads[name] = payload
-            digest = hashlib.sha256(payload).hexdigest().upper()
-            if digest != manifest["member_sha256"][name]:
-                raise RuntimeError(f"Archive member hash mismatch: {member}")
-
-    for name, expected_hash in manifest["member_sha256"].items():
-        source_path = AGENT_DIR / name
-        if name.endswith(".py"):
-            matches_archive = _normalize_newlines(
-                source_path.read_bytes()
-            ) == _normalize_newlines(archived_payloads[name])
-        else:
-            matches_archive = _sha256(source_path) == expected_hash
-        if not matches_archive:
-            raise RuntimeError(f"Source package hash mismatch: {name}")
-    return manifest, archive
+def _verify_source_package() -> None:
+    actual_files = sorted(path.name for path in AGENT_DIR.iterdir() if path.is_file())
+    if actual_files != EXPECTED_AGENT_FILES:
+        raise RuntimeError("M2 source package files do not match the delivery inventory")
+    if _sha256(AGENT_DIR / "model.pt") != EXPECTED_MODEL_SHA256:
+        raise RuntimeError("M2 checkpoint SHA-256 does not match the delivery")
 
 
 def main() -> None:
@@ -152,7 +131,7 @@ def main() -> None:
     if configured_stage() != "task4":
         raise RuntimeError("M2 must default to Task 4 for delivery")
 
-    manifest, archive = _verify_archive()
+    _verify_source_package()
     payload = load_checkpoint(AGENT_DIR / "model.pt", torch.device("cpu"))
     if set(payload) != {"format_version", "policy_state"}:
         raise RuntimeError("Checkpoint contains non-inference state")
@@ -173,16 +152,16 @@ def main() -> None:
         raise RuntimeError("M2 forward-pass smoke test failed")
 
     report = {
-        "archive_sha256": _sha256(archive),
-        "archive_members": len(manifest["members"]),
         "checkpoint_migrated": migrated,
         "default_stage": configured_stage(),
         "gnu_stack": stack_flags,
+        "model_sha256": _sha256(AGENT_DIR / "model.pt"),
         "numpy": np.__version__,
         "platform": platform.platform(),
         "policy_tensors": len(payload["policy_state"]),
         "python": platform.python_version(),
         "q_shape": list(q_values.shape),
+        "source_files": len(EXPECTED_AGENT_FILES),
         "status": "PASS",
         "torch": torch.__version__,
     }

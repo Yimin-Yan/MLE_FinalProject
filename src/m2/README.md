@@ -21,17 +21,17 @@ tactical and safety logic. The bundled inference package defaults to Task 4.
 
 ## Contents
 
-- `m2_final_submission/`: the eight self-contained inference files, including
-  the stripped inference-only `model.pt` checkpoint.
-- `package/m2_final_submission.zip`: the verified submission archive created
-  before this GitLab upload.
-- `package/submission_manifest.json`: file inventory and SHA-256 hashes.
+- `m2_final_submission/`: the single canonical M2 delivery, containing eight
+  self-contained inference files and the stripped inference-only `model.pt`
+  checkpoint.
+- `requirements.txt`: the pinned runtime dependencies.
+- `verify_delivery.py`: the Linux compatibility and inference smoke check.
 
-The package intentionally excludes training code, optimizer state, target
+The delivery intentionally excludes training code, optimizer state, target
 network state, replay data, evaluation logs, and M1/M3 artifacts.
 
-Verified archive SHA-256:
-`CDE9E97FF929061C0641431FB235809AF4ADF64397DA6C285833FF8AC0AB487A`.
+Verified checkpoint SHA-256:
+`B2148629D65E5C6E5866214884BD015D9ECD2D7F84EA121C425BE0EBD71748D6`.
 
 ## Reproducible Debian 13 setup
 
@@ -48,8 +48,9 @@ python src/m2/verify_delivery.py
 
 The requirements file pins the official CPU build of PyTorch used for the
 Linux delivery check. `verify_delivery.py` fails closed if the installed
-`libtorch_cpu.so` requests an executable stack, if package hashes change, or
-if the checkpoint cannot be loaded and evaluated on CPU.
+`libtorch_cpu.so` requests an executable stack, if the source inventory or
+checkpoint hash changes, or if the checkpoint cannot be loaded and evaluated
+on CPU.
 
 GitLab CI repeats this check in a fresh `debian:13-slim` container whenever
 the M2 delivery or its CI configuration changes.
