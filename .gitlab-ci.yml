@@ -18,9 +18,9 @@ m2_debian13_smoke:
     - python3 -m venv .m2-venv
     - .m2-venv/bin/python -m pip install --upgrade pip
   script:
-    - .m2-venv/bin/python -m pip install --requirement src/m2/requirements.txt
-    - .m2-venv/bin/python src/m2/verify_delivery.py
+    - .m2-venv/bin/python -m pip install --requirement src/Siegfried/requirements.txt
+    - .m2-venv/bin/python src/Siegfried/verify_delivery.py
   rules:
     - changes:
         - .gitlab-ci.yml
-        - src/m2/**/*
+        - src/Siegfried/**/*

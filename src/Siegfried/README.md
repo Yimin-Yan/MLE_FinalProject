@@ -46,8 +46,8 @@ unversioned or cached PyTorch installation from another image.
 python3 -m venv .m2-venv
 . .m2-venv/bin/activate
 python -m pip install --upgrade pip
-python -m pip install --requirement src/m2/requirements.txt
-python src/m2/verify_delivery.py
+python -m pip install --requirement src/Siegfried/requirements.txt
+python src/Siegfried/verify_delivery.py
 ```
 
 The requirements file pins the official CPU build of PyTorch used for the
