@@ -14,7 +14,7 @@ import sys
 
 
 M2_ROOT = Path(__file__).resolve().parent
-AGENT_DIR = M2_ROOT / "m2_v2"
+AGENT_DIR = M2_ROOT / "Siegfried"
 EXPECTED_NUMPY_VERSION = "2.5.3"
 EXPECTED_TORCH_VERSION = "2.11.0"
 EXPECTED_POLICY_TENSORS = 19
@@ -115,14 +115,14 @@ def main() -> None:
         ast.parse(path.read_text(encoding="utf-8"), filename=str(path))
 
     sys.path.insert(0, str(M2_ROOT))
-    from m2_v2.config import (
+    from Siegfried.config import (
         ACTIONS,
         AUX_FEATURES,
         BOARD_CHANNELS,
         BOARD_SIZE,
         configured_stage,
     )
-    from m2_v2.model import (
+    from Siegfried.model import (
         DuelingQNetwork,
         load_checkpoint,
         load_policy_state,

@@ -22,7 +22,7 @@ tactical and safety logic. The bundled inference package defaults to Task 4.
 
 ## Contents
 
-- `m2_v2/`: the single canonical M2 delivery, containing eight
+- `Siegfried/`: the single canonical M2 delivery, containing eight
   self-contained inference files and the stripped inference-only `model.pt`
   checkpoint.
 - `requirements.txt`: the pinned runtime dependencies.
