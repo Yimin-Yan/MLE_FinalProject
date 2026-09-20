@@ -11,6 +11,7 @@ from .features import (
     blast_coordinates,
     danger_urgency_map,
     robust_action_features,
+    shortest_path_distance,
     valid_action_mask,
 )
 
@@ -20,6 +21,15 @@ WAIT_INDEX = ACTIONS.index("WAIT")
 MOVE_INDICES = tuple(range(4))
 NEW_BOMB_DETONATION_HORIZON = BOMB_TIMER + 1
 MIN_BOMB_ESCAPE_DIVERSITY = 0.5
+COIN_HORIZON = 999
+CHASE_RANGE = 6
+MAX_FOES_TO_FARM = 0
+MIN_CRATES = 1
+FARM_DIVERSITY = 0.5
+COIN_CONTEST = 0
+BOMB_VETO = 1
+VETO_FOE_RANGE = 4
+CHASE_LIMIT = 999
 
 
 def exact_survival_metrics(game_state: dict) -> tuple[np.ndarray, np.ndarray]:
@@ -158,6 +168,122 @@ def _opponent_pressure(field, start, schedule, bomb_times, horizon):
     return False, float(np.clip(restriction, 0.0, 1.0))
 
 
+def _approach(game_state, allowed, q_values, rng, targets, horizon):
+    """Pick a survivable move that strictly shortens the path to any target."""
+    if not targets:
+        return None
+    current = shortest_path_distance(game_state, targets)
+    if current is None or current > horizon:
+        return None
+    own_position = tuple(game_state["self"][3])
+    me = tuple(game_state["self"])
+    candidates = np.zeros(len(ACTIONS), dtype=bool)
+    for index in MOVE_INDICES:
+        if not allowed[index]:
+            continue
+        dx, dy = MOVE_DELTAS[ACTIONS[index]]
+        destination = (own_position[0] + dx, own_position[1] + dy)
+        moved_state = dict(game_state)
+        moved_state["self"] = (*me[:3], destination)
+        distance = shortest_path_distance(moved_state, targets)
+        if distance is not None and distance < current:
+            candidates[index] = True
+    if not np.any(candidates):
+        return None
+    return _q_tiebreak(candidates, q_values, rng)
+
+
+def _uncontested(game_state, coins):
+    """Drop coins that an opponent would reach strictly sooner than we would."""
+    own_distance = {}
+    for coin in coins:
+        distance = shortest_path_distance(game_state, [coin])
+        if distance is not None:
+            own_distance[coin] = distance
+    if not own_distance:
+        return []
+    keep = []
+    for coin, mine in own_distance.items():
+        contested = False
+        for opponent in game_state["others"]:
+            probe = dict(game_state)
+            probe["self"] = (*tuple(game_state["self"])[:3], tuple(opponent[3]))
+            probe["others"] = [item for item in game_state["others"] if item is not opponent]
+            theirs = shortest_path_distance(probe, [coin])
+            if theirs is not None and theirs < mine:
+                contested = True
+                break
+        if not contested:
+            keep.append(coin)
+    return keep
+
+
+def coin_push(game_state, allowed, q_values, rng) -> int | None:
+    """Prefer a survivable move that gets strictly closer to the nearest coin."""
+    coins = [tuple(coin) for coin in game_state["coins"]]
+    if not coins:
+        return None
+    if COIN_CONTEST:
+        uncontested = _uncontested(game_state, coins)
+        if uncontested:
+            coins = uncontested
+    return _approach(game_state, allowed, q_values, rng, coins, COIN_HORIZON)
+
+
+def crate_push(game_state, allowed, q_values, rng, diversity) -> int | None:
+    """Bomb a worthwhile crate cluster, or walk towards the nearest crate."""
+    field = np.asarray(game_state["field"])
+    crates = {tuple(position) for position in np.argwhere(field == 1)}
+    if not crates:
+        return None
+    own_position = tuple(game_state["self"][3])
+    if allowed[BOMB_INDEX] and diversity[BOMB_INDEX] >= FARM_DIVERSITY:
+        blast = set(blast_coordinates(field, own_position))
+        if len(blast & crates) >= MIN_CRATES:
+            return BOMB_INDEX
+    approach_tiles = set()
+    for x, y in crates:
+        for dx, dy in MOVE_DELTAS.values():
+            nx, ny = x + dx, y + dy
+            if 0 <= nx < field.shape[0] and 0 <= ny < field.shape[1] and field[nx, ny] == 0:
+                approach_tiles.add((nx, ny))
+    return _approach(game_state, allowed, q_values, rng, list(approach_tiles), 999)
+
+
+def foe_within(game_state, limit) -> bool:
+    """True when the closest reachable opponent is no further than limit."""
+    opponents = [tuple(item[3]) for item in game_state["others"]]
+    if not opponents:
+        return False
+    distance = shortest_path_distance(game_state, opponents)
+    return distance is not None and distance <= limit
+
+
+def bomb_is_pointless(game_state) -> bool:
+    """A bomb that reaches neither a crate nor a nearby opponent is wasted."""
+    field = np.asarray(game_state["field"])
+    own_position = tuple(game_state["self"][3])
+    blast = set(blast_coordinates(field, own_position))
+    if any(field[tile] == 1 for tile in blast):
+        return False
+    opponents = [tuple(item[3]) for item in game_state["others"]]
+    if not opponents:
+        return True
+    distance = shortest_path_distance(game_state, opponents)
+    return distance is None or distance > VETO_FOE_RANGE
+
+
+def may_farm(game_state) -> bool:
+    """Farming is allowed only in a thin field with no opponent nearby."""
+    opponents = [tuple(item[3]) for item in game_state["others"]]
+    if len(opponents) > MAX_FOES_TO_FARM:
+        return False
+    if not opponents:
+        return True
+    distance = shortest_path_distance(game_state, opponents)
+    return distance is None or distance > CHASE_RANGE
+
+
 def tactical_action(game_state, legal, q_values, rng) -> int | None:
     """Choose an exact-timing tactical action, or return None for Q fallback."""
     if legal.shape != (len(ACTIONS),) or q_values.shape != (len(ACTIONS),):
@@ -185,6 +311,18 @@ def tactical_action(game_state, legal, q_values, rng) -> int | None:
     ):
         return BOMB_INDEX
 
+    coin_move = coin_push(game_state, allowed, q_values, rng)
+    if coin_move is not None:
+        return coin_move
+
+    if may_farm(game_state):
+        crate_move = crate_push(game_state, allowed, q_values, rng, diversity)
+        if crate_move is not None:
+            return crate_move
+
+    if not foe_within(game_state, CHASE_LIMIT):
+        return None
+
     tactical = robust_action_features(game_state).reshape(len(ACTIONS), -1)
     progress = tactical[:, 0]
     movement = np.zeros(len(ACTIONS), dtype=bool)
@@ -202,6 +340,11 @@ def exact_action_mask(game_state: dict) -> tuple[np.ndarray, np.ndarray]:
     physical = valid_action_mask(game_state)
     survivable, diversity = exact_survival_metrics(game_state)
     restricted = physical & survivable
+    if BOMB_VETO and restricted[BOMB_INDEX] and bomb_is_pointless(game_state):
+        vetoed = restricted.copy()
+        vetoed[BOMB_INDEX] = False
+        if np.any(vetoed):
+            restricted = vetoed
     if np.any(restricted):
         return restricted, diversity
     fallback = physical.copy()

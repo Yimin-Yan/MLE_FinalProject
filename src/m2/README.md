@@ -12,7 +12,8 @@ The policy combines:
 - 32 engineered global/spatial auxiliary features;
 - 7 tactical features for each of the 6 actions, added through an
   action-aligned residual head;
-- rule-based action proposals and tactical overrides; and
+- rule-based action proposals and tactical overrides, including coin pursuit,
+  conditional crate farming, and pointless-bomb vetoes; and
 - exact legal-action and survival filtering before an action is selected.
 
 Task 3a uses a frozen rule-policy proposal followed by exact survival
@@ -21,7 +22,7 @@ tactical and safety logic. The bundled inference package defaults to Task 4.
 
 ## Contents
 
-- `m2_final_submission/`: the single canonical M2 delivery, containing eight
+- `m2_v2/`: the single canonical M2 delivery, containing eight
   self-contained inference files and the stripped inference-only `model.pt`
   checkpoint.
 - `requirements.txt`: the pinned runtime dependencies.
@@ -32,6 +33,9 @@ network state, replay data, evaluation logs, and M1/M3 artifacts.
 
 Verified checkpoint SHA-256:
 `B2148629D65E5C6E5866214884BD015D9ECD2D7F84EA121C425BE0EBD71748D6`.
+
+Source archive (`Siegfried.zip`) SHA-256:
+`DE301C0C1BD26C9FA6158A69DC49FA0B4ABA78CF3D41FCA93D14F83952B7592B`.
 
 ## Reproducible Debian 13 setup
 
