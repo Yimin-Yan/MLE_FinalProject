@@ -14,7 +14,7 @@ import sys
 
 
 M2_ROOT = Path(__file__).resolve().parent
-AGENT_DIR = M2_ROOT / "Siegfried"
+AGENT_DIR = M2_ROOT
 EXPECTED_NUMPY_VERSION = "2.5.3"
 EXPECTED_TORCH_VERSION = "2.11.0"
 EXPECTED_POLICY_TENSORS = 19
@@ -89,9 +89,9 @@ def _verify_linux_stack_flag() -> str:
 
 
 def _verify_source_package() -> None:
-    actual_files = sorted(path.name for path in AGENT_DIR.iterdir() if path.is_file())
-    if actual_files != EXPECTED_AGENT_FILES:
-        raise RuntimeError("M2 source package files do not match the delivery inventory")
+    missing = [name for name in EXPECTED_AGENT_FILES if not (AGENT_DIR / name).is_file()]
+    if missing:
+        raise RuntimeError(f"M2 source package is missing required files: {missing}")
     if _sha256(AGENT_DIR / "model.pt") != EXPECTED_MODEL_SHA256:
         raise RuntimeError("M2 checkpoint SHA-256 does not match the delivery")
 
@@ -111,18 +111,20 @@ def main() -> None:
             f"Expected PyTorch {EXPECTED_TORCH_VERSION}, got {torch.__version__}"
         )
 
-    for path in AGENT_DIR.glob("*.py"):
-        ast.parse(path.read_text(encoding="utf-8"), filename=str(path))
+    for filename in EXPECTED_AGENT_FILES:
+        path = AGENT_DIR / filename
+        if path.suffix == ".py":
+            ast.parse(path.read_text(encoding="utf-8"), filename=str(path))
 
-    sys.path.insert(0, str(M2_ROOT))
-    from Siegfried.config import (
+    sys.path.insert(0, str(M2_ROOT.parent))
+    from model_1.config import (
         ACTIONS,
         AUX_FEATURES,
         BOARD_CHANNELS,
         BOARD_SIZE,
         configured_stage,
     )
-    from Siegfried.model import (
+    from model_1.model import (
         DuelingQNetwork,
         load_checkpoint,
         load_policy_state,
