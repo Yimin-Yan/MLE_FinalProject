@@ -112,19 +112,3 @@ $env:M2_TRAINING_STAGE = "task4"
 python .\main.py play --agents Siegfried rule_based_agent rule_based_agent rule_based_agent --scenario classic --n-rounds 10 --no-gui
 ```
 
-Supported stage values are `task1`, `task2`, `task3a`, `task3b`, and `task4`.
-`M2_DEVICE` accepts `auto`, `cpu`, or `cuda`. `M2_MODEL_PATH` may point to an
-alternative compatible checkpoint; if it is omitted, the bundled `model.pt`
-is used. This package is inference-only, so it should not be launched with
-`--train 1`.
-
-## Integrity
-
-- Checkpoint SHA-256:
-  `B2148629D65E5C6E5866214884BD015D9ECD2D7F84EA121C425BE0EBD71748D6`
-- Original `Siegfried.zip` SHA-256:
-  `DE301C0C1BD26C9FA6158A69DC49FA0B4ABA78CF3D41FCA93D14F83952B7592B`
-
-The verification script treats any checkpoint-hash mismatch, missing agent
-file, incompatible dependency version, non-finite model value, or invalid
-forward output as a failure.
