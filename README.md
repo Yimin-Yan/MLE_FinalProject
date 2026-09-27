@@ -189,9 +189,9 @@ stage, or architecture choice.
 
 ## Contributors
 
-- Yimin Yan led the Siegfried branch.
+- Yimin Yan led the Siegfried branch and wrote the report.
 - Junfeng Wei led the SEAT-Q branch and integrated the final report.
-- Zhikai Zhang led the DQFD_RE branch.
+- Zhikai Zhang led the DQFD_RE branch and wrote the report.
 
 All three team members contributed to model design and report writing.
 
