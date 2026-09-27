@@ -102,12 +102,6 @@ The submitted weights come from the V18 checkpoint at 25,000 Task 3b
 transitions. V19, V20, and final integration changed the controller without
 retraining those weights.
 
-The checkpoint SHA-256 digest is:
-
-```text
-B2148629D65E5C6E5866214884BD015D9ECD2D7F84EA121C425BE0EBD71748D6
-```
-
 The package provides `setup` and `act` for inference. It does not contain
 training callbacks, optimizer state, target-network state, replay data, or
 training logs. See [`src/model_1/README.md`](src/model_1/README.md) for its file
