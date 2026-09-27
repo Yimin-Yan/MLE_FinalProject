@@ -1,0 +1,8 @@
+Training:
+alpha = 0.75
+gamma = 0.95
+epsilon = 0.5
+n_rounds = 1000
+
+Test:
+epsilon = 0.15

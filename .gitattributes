@@ -1,1 +1,13 @@
-"opponents agents/*.zip" filter=lfs diff=lfs merge=lfs -text
+"src/opponent agents/sev/ML-Essentials_Uni-Heidelberg-main/exercises/exercise03_Convolutional-neural-network-with-pytorch/MNIST/raw/train-images-idx3-ubyte" filter=lfs diff=lfs merge=lfs -text
+"src/opponent agents/lalala/bomberman_rl-master/agent_code/Voltorb_Trainer/my-seen-features.pt" filter=lfs diff=lfs merge=lfs -text
+"src/opponent agents/sev/ML-Essentials_Uni-Heidelberg-main/final-project/bomberman_rl/agent_code/lord_of_the_peanuts_agent/my-saved-qtable-14.pkl" filter=lfs diff=lfs merge=lfs -text
+"src/opponent agents/sev/ML-Essentials_Uni-Heidelberg-main/other-resources/WS21_22_Introduction-to-Scientific-Python.mp4" filter=lfs diff=lfs merge=lfs -text
+"src/opponent agents/sev/ML-Essentials_Uni-Heidelberg-main/final-project/bomberman_rl/agent_code/lord_of_the_peanuts_agent/my-saved-qtable-2.pkl" filter=lfs diff=lfs merge=lfs -text
+"src/opponent agents/sev/ML-Essentials_Uni-Heidelberg-main/final-project/bomberman_rl/agent_code/lord_of_the_peanuts_agent/myqtable8.pkl" filter=lfs diff=lfs merge=lfs -text
+"src/opponent agents/alo/bomberman-agent-main/src/scripts/qagent.pickle" filter=lfs diff=lfs merge=lfs -text
+"src/opponent agents/sev/ML-Essentials_Uni-Heidelberg-main/final-project/bomberman_rl/agent_code/lord_of_the_peanuts_agent/myqtable.pkl" filter=lfs diff=lfs merge=lfs -text
+"src/opponent agents/sev/ML-Essentials_Uni-Heidelberg-main/final-project/bomberman_rl/agent_code/lord_of_the_peanuts_agent/myqtable5.pkl" filter=lfs diff=lfs merge=lfs -text
+"src/opponent agents/Kunkel1/bomberman_rl-master/figures/16_cnn_allstar.gif" filter=lfs diff=lfs merge=lfs -text
+"src/opponent agents/alo/bomberman-agent-main/src/scripts/a2c_agent.pickle" filter=lfs diff=lfs merge=lfs -text
+"src/opponent agents/tha/Bomberman-Deep-RL-Codefest-2022-master/Reinforcement_AI_CODEFEST_2022.ipynb" filter=lfs diff=lfs merge=lfs -text
+"src/opponent agents/sev/ML-Essentials_Uni-Heidelberg-main/exercises/exercise04_Linear-regression/hs_tomography/X_77.npy" filter=lfs diff=lfs merge=lfs -text

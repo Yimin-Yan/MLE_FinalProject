@@ -1,0 +1,1018 @@
+# Runs
+
+## 20250817.pkl
+
+
+Best params:
+- initial_q: -0.6374781608899868
+- learning_rate: 0.021974521773962988
+- learning_rate_mode: fixed
+- discount: 0.7603525592096564
+
+### Output
+```
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:09<00:00,  3.19it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 16:17:55,451] Trial 0 finished with value: 0.03333333333333333 and parameters: {'initial_q': 0.21367172855477112, 'learning_rate': 9.465370544917075e-05, 'learning_rate_mode': 'adaptive', 'discount': 0.7194501709355107}. Best is trial 0 with value: 0.03333333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:17<00:00,  1.68it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 16:19:17,199] Trial 1 finished with value: 0.0 and parameters: {'initial_q': 0.36171652742010973, 'learning_rate': 0.004529926247474389, 'learning_rate_mode': 'fixed', 'discount': 0.6355979698201221}. Best is trial 0 with value: 0.03333333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:11<00:00,  2.56it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 16:20:51,336] Trial 2 finished with value: 0.5333333333333333 and parameters: {'initial_q': 0.2621667201733606, 'learning_rate': 0.001262357993990628, 'learning_rate_mode': 'adaptive', 'discount': 0.8988646717159443}. Best is trial 2 with value: 0.5333333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:10<00:00,  2.92it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 16:22:06,732] Trial 3 finished with value: 4.066666666666666 and parameters: {'initial_q': -0.4994114472826934, 'learning_rate': 0.03915215716318081, 'learning_rate_mode': 'fixed', 'discount': 0.690345711013518}. Best is trial 3 with value: 4.066666666666666.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:09<00:00,  3.31it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 16:23:29,191] Trial 4 finished with value: 5.133333333333334 and parameters: {'initial_q': -0.4145141374789041, 'learning_rate': 0.020922767169988317, 'learning_rate_mode': 'adaptive', 'discount': 0.543118468420042}. Best is trial 4 with value: 5.133333333333334.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:15<00:00,  1.97it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 16:24:46,135] Trial 5 finished with value: 3.566666666666667 and parameters: {'initial_q': -0.24271268029678406, 'learning_rate': 0.0006214231365833768, 'learning_rate_mode': 'fixed', 'discount': 0.8077134813411997}. Best is trial 4 with value: 5.133333333333334.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:09<00:00,  3.07it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 16:25:55,301] Trial 6 finished with value: 0.16666666666666666 and parameters: {'initial_q': 0.6163714568296326, 'learning_rate': 0.007224787224853257, 'learning_rate_mode': 'fixed', 'discount': 0.8757471050756309}. Best is trial 4 with value: 5.133333333333334.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:14<00:00,  2.10it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 16:27:09,089] Trial 7 finished with value: 0.16666666666666666 and parameters: {'initial_q': 0.6050727379295227, 'learning_rate': 0.0006916480040291753, 'learning_rate_mode': 'fixed', 'discount': 0.6982040840681207}. Best is trial 4 with value: 5.133333333333334.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:07<00:00,  3.82it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 16:28:30,354] Trial 8 finished with value: 0.36666666666666664 and parameters: {'initial_q': 0.07530356900825175, 'learning_rate': 0.01534905073991997, 'learning_rate_mode': 'adaptive', 'discount': 0.7890460084456509}. Best is trial 4 with value: 5.133333333333334.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:16<00:00,  1.79it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 16:30:06,290] Trial 9 finished with value: 0.43333333333333335 and parameters: {'initial_q': 0.5609225435546807, 'learning_rate': 0.03919587172123217, 'learning_rate_mode': 'adaptive', 'discount': 0.9301149242667316}. Best is trial 4 with value: 5.133333333333334.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:14<00:00,  2.13it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 16:31:41,842] Trial 10 finished with value: 3.8333333333333335 and parameters: {'initial_q': -0.9935864102455028, 'learning_rate': 1.076430556373747e-05, 'learning_rate_mode': 'adaptive', 'discount': 0.5136934817331362}. Best is trial 4 with value: 5.133333333333334.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:09<00:00,  3.04it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 16:32:51,528] Trial 11 finished with value: 2.3666666666666667 and parameters: {'initial_q': -0.5264254301660102, 'learning_rate': 0.09607637350805372, 'learning_rate_mode': 'fixed', 'discount': 0.5254120739449876}. Best is trial 4 with value: 5.133333333333334.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:08<00:00,  3.63it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 16:34:00,172] Trial 12 finished with value: 3.466666666666667 and parameters: {'initial_q': -0.5441097076027934, 'learning_rate': 0.08461361325616644, 'learning_rate_mode': 'fixed', 'discount': 0.6140071924811377}. Best is trial 4 with value: 5.133333333333334.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:12<00:00,  2.37it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 16:35:32,094] Trial 13 finished with value: 3.3333333333333335 and parameters: {'initial_q': -0.3008266568931375, 'learning_rate': 0.021636539306187124, 'learning_rate_mode': 'adaptive', 'discount': 0.6017783646671727}. Best is trial 4 with value: 5.133333333333334.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:04<00:00,  6.13it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 16:36:50,850] Trial 14 finished with value: 2.566666666666667 and parameters: {'initial_q': -0.970757704355929, 'learning_rate': 0.003722320680707993, 'learning_rate_mode': 'adaptive', 'discount': 0.5680945068155167}. Best is trial 4 with value: 5.133333333333334.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:10<00:00,  2.93it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 16:37:57,706] Trial 15 finished with value: 0.0 and parameters: {'initial_q': 0.9790184067968191, 'learning_rate': 0.01435805016556843, 'learning_rate_mode': 'fixed', 'discount': 0.6688119925941959}. Best is trial 4 with value: 5.133333333333334.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:06<00:00,  4.72it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 16:39:21,057] Trial 16 finished with value: 1.8 and parameters: {'initial_q': -0.6982808498833942, 'learning_rate': 0.00017172457897357633, 'learning_rate_mode': 'adaptive', 'discount': 0.9821161877067364}. Best is trial 4 with value: 5.133333333333334.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:09<00:00,  3.23it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 16:40:28,949] Trial 17 finished with value: 3.2666666666666666 and parameters: {'initial_q': -0.12207139513390655, 'learning_rate': 0.0440049781634822, 'learning_rate_mode': 'fixed', 'discount': 0.7701950675729152}. Best is trial 4 with value: 5.133333333333334.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:11<00:00,  2.55it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 16:42:02,987] Trial 18 finished with value: 4.733333333333333 and parameters: {'initial_q': -0.6844537925979399, 'learning_rate': 0.001990496609294182, 'learning_rate_mode': 'adaptive', 'discount': 0.5560062975667796}. Best is trial 4 with value: 5.133333333333334.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:09<00:00,  3.09it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 16:43:35,854] Trial 19 finished with value: 2.5 and parameters: {'initial_q': -0.776654885686973, 'learning_rate': 0.002334287189726053, 'learning_rate_mode': 'adaptive', 'discount': 0.5508821105632659}. Best is trial 4 with value: 5.133333333333334.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:14<00:00,  2.08it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 16:45:08,159] Trial 20 finished with value: 3.9 and parameters: {'initial_q': -0.313720504223859, 'learning_rate': 0.00024647706311988653, 'learning_rate_mode': 'adaptive', 'discount': 0.5616697172996981}. Best is trial 4 with value: 5.133333333333334.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:06<00:00,  4.65it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 16:46:29,982] Trial 21 finished with value: 2.3333333333333335 and parameters: {'initial_q': -0.5043211702216077, 'learning_rate': 0.00830182351712575, 'learning_rate_mode': 'adaptive', 'discount': 0.6559007197871473}. Best is trial 4 with value: 5.133333333333334.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:08<00:00,  3.44it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 16:47:56,119] Trial 22 finished with value: 3.2 and parameters: {'initial_q': -0.7194897465094006, 'learning_rate': 0.032918812288101645, 'learning_rate_mode': 'adaptive', 'discount': 0.5927512196095964}. Best is trial 4 with value: 5.133333333333334.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:11<00:00,  2.73it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 16:49:10,251] Trial 23 finished with value: 2.033333333333333 and parameters: {'initial_q': -0.4467476085962351, 'learning_rate': 0.0017907956517765138, 'learning_rate_mode': 'fixed', 'discount': 0.5054610999244552}. Best is trial 4 with value: 5.133333333333334.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:12<00:00,  2.40it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 16:50:33,091] Trial 24 finished with value: 4.266666666666667 and parameters: {'initial_q': -0.07145708922556687, 'learning_rate': 0.009294945561047548, 'learning_rate_mode': 'adaptive', 'discount': 0.6946067021365037}. Best is trial 4 with value: 5.133333333333334.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:08<00:00,  3.43it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 16:51:45,596] Trial 25 finished with value: 4.933333333333334 and parameters: {'initial_q': -0.04231013292629845, 'learning_rate': 0.00879969200447028, 'learning_rate_mode': 'adaptive', 'discount': 0.8367771973241849}. Best is trial 4 with value: 5.133333333333334.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:10<00:00,  2.82it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 16:53:02,436] Trial 26 finished with value: 5.733333333333333 and parameters: {'initial_q': -0.17205226621653585, 'learning_rate': 0.003807263980025278, 'learning_rate_mode': 'adaptive', 'discount': 0.7543426749137524}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:07<00:00,  4.21it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 16:54:14,142] Trial 27 finished with value: 0.23333333333333334 and parameters: {'initial_q': 0.054890349307413766, 'learning_rate': 0.004368201932036581, 'learning_rate_mode': 'adaptive', 'discount': 0.8344243855667819}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:06<00:00,  4.72it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 16:55:23,581] Trial 28 finished with value: 4.266666666666667 and parameters: {'initial_q': -0.19821059596730567, 'learning_rate': 0.017137956349603082, 'learning_rate_mode': 'adaptive', 'discount': 0.7551213158578417}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:11<00:00,  2.53it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 16:56:46,750] Trial 29 finished with value: 0.13333333333333333 and parameters: {'initial_q': 0.09500009185777117, 'learning_rate': 0.0004367464028400191, 'learning_rate_mode': 'adaptive', 'discount': 0.7408050466648765}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:14<00:00,  2.10it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 16:58:32,858] Trial 30 finished with value: 0.3333333333333333 and parameters: {'initial_q': 0.19494734104298356, 'learning_rate': 5.262920213981719e-05, 'learning_rate_mode': 'adaptive', 'discount': 0.8299846878073253}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:06<00:00,  4.54it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 16:59:52,589] Trial 31 finished with value: 1.6333333333333333 and parameters: {'initial_q': -0.3880208037585456, 'learning_rate': 0.0023841079796485085, 'learning_rate_mode': 'adaptive', 'discount': 0.8547499619246844}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:10<00:00,  2.88it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:01:09,995] Trial 32 finished with value: 5.133333333333334 and parameters: {'initial_q': -0.09875768089644657, 'learning_rate': 0.005376827740755299, 'learning_rate_mode': 'adaptive', 'discount': 0.7216889386855432}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:12<00:00,  2.36it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:02:27,809] Trial 33 finished with value: 5.4 and parameters: {'initial_q': -0.13303223234063657, 'learning_rate': 0.006017329250022943, 'learning_rate_mode': 'adaptive', 'discount': 0.7234770097618008}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:10<00:00,  2.77it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:03:46,857] Trial 34 finished with value: 3.966666666666667 and parameters: {'initial_q': -0.14642600901931074, 'learning_rate': 0.00451229499090023, 'learning_rate_mode': 'adaptive', 'discount': 0.7369176174944737}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:13<00:00,  2.20it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:05:12,305] Trial 35 finished with value: 0.0 and parameters: {'initial_q': 0.3434985265129338, 'learning_rate': 0.0012524438151348771, 'learning_rate_mode': 'adaptive', 'discount': 0.7256019726959773}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:09<00:00,  3.23it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:06:25,134] Trial 36 finished with value: 3.8333333333333335 and parameters: {'initial_q': -0.22973855959547052, 'learning_rate': 0.00718067137345896, 'learning_rate_mode': 'adaptive', 'discount': 0.6353913933047742}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:10<00:00,  2.83it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:07:40,304] Trial 37 finished with value: 0.1 and parameters: {'initial_q': 0.16901253479393152, 'learning_rate': 0.0009002950611973965, 'learning_rate_mode': 'adaptive', 'discount': 0.7747508521556212}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:15<00:00,  1.94it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:09:07,933] Trial 38 finished with value: 2.933333333333333 and parameters: {'initial_q': -0.36325848670173577, 'learning_rate': 0.024525297211124873, 'learning_rate_mode': 'adaptive', 'discount': 0.6697858675651399}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:11<00:00,  2.57it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:10:29,935] Trial 39 finished with value: 4.5 and parameters: {'initial_q': -0.01630955780007673, 'learning_rate': 0.0033751214043618153, 'learning_rate_mode': 'adaptive', 'discount': 0.7111395349085243}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:09<00:00,  3.02it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:11:52,920] Trial 40 finished with value: 0.23333333333333334 and parameters: {'initial_q': 0.32411164672335313, 'learning_rate': 0.053110652258692444, 'learning_rate_mode': 'adaptive', 'discount': 0.8122221986725601}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:11<00:00,  2.66it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:13:12,191] Trial 41 finished with value: 4.633333333333334 and parameters: {'initial_q': -0.03873394211080223, 'learning_rate': 0.010844718984057382, 'learning_rate_mode': 'adaptive', 'discount': 0.9086006639884955}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:07<00:00,  3.75it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:14:26,202] Trial 42 finished with value: 2.0 and parameters: {'initial_q': -0.1586701599143024, 'learning_rate': 0.00717221114364659, 'learning_rate_mode': 'adaptive', 'discount': 0.866078396743412}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:06<00:00,  4.64it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:15:40,296] Trial 43 finished with value: 4.233333333333333 and parameters: {'initial_q': -0.268397522730765, 'learning_rate': 0.006281050862424627, 'learning_rate_mode': 'adaptive', 'discount': 0.7864440748844446}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:06<00:00,  4.42it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:16:51,486] Trial 44 finished with value: 5.033333333333333 and parameters: {'initial_q': -0.08694316467631356, 'learning_rate': 0.011385598505447228, 'learning_rate_mode': 'adaptive', 'discount': 0.9446741317573829}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:09<00:00,  3.28it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:18:08,017] Trial 45 finished with value: 3.1333333333333333 and parameters: {'initial_q': 0.07277586532420044, 'learning_rate': 0.013443304100259958, 'learning_rate_mode': 'adaptive', 'discount': 0.9863578039926981}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:09<00:00,  3.15it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:19:22,359] Trial 46 finished with value: 2.2666666666666666 and parameters: {'initial_q': -0.5958661289764677, 'learning_rate': 0.023551100123263478, 'learning_rate_mode': 'adaptive', 'discount': 0.95802202158416}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:11<00:00,  2.61it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:20:25,974] Trial 47 finished with value: 4.1 and parameters: {'initial_q': -0.38740736296688255, 'learning_rate': 0.005529050104016446, 'learning_rate_mode': 'fixed', 'discount': 0.9232182583420527}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:07<00:00,  4.03it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:21:37,728] Trial 48 finished with value: 2.533333333333333 and parameters: {'initial_q': -0.22966264253107171, 'learning_rate': 0.0028861923727090686, 'learning_rate_mode': 'adaptive', 'discount': 0.8939540527452443}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:08<00:00,  3.44it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:22:50,609] Trial 49 finished with value: 0.03333333333333333 and parameters: {'initial_q': 0.48858161548795986, 'learning_rate': 0.0014954909935212452, 'learning_rate_mode': 'adaptive', 'discount': 0.6267415931122305}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:09<00:00,  3.08it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:24:05,528] Trial 50 finished with value: 2.8 and parameters: {'initial_q': -0.10322320238975065, 'learning_rate': 0.06115324957165039, 'learning_rate_mode': 'adaptive', 'discount': 0.6738914287804412}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:08<00:00,  3.75it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:25:19,006] Trial 51 finished with value: 2.7333333333333334 and parameters: {'initial_q': 0.005996349777140947, 'learning_rate': 0.010937635017127231, 'learning_rate_mode': 'adaptive', 'discount': 0.805536350163205}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:10<00:00,  2.80it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:26:35,836] Trial 52 finished with value: 0.9666666666666667 and parameters: {'initial_q': 0.14742151008106846, 'learning_rate': 0.017704603812323208, 'learning_rate_mode': 'adaptive', 'discount': 0.9492734071495009}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:07<00:00,  3.84it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:27:48,123] Trial 53 finished with value: 0.0 and parameters: {'initial_q': 0.2629883368846789, 'learning_rate': 0.025412022207129813, 'learning_rate_mode': 'adaptive', 'discount': 0.7149811583492317}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:05<00:00,  5.15it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:28:59,559] Trial 54 finished with value: 3.2333333333333334 and parameters: {'initial_q': -0.31228531155732014, 'learning_rate': 0.005016078691737827, 'learning_rate_mode': 'adaptive', 'discount': 0.761002408545542}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:09<00:00,  3.06it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:30:03,291] Trial 55 finished with value: 0.0 and parameters: {'initial_q': 0.9761456214300137, 'learning_rate': 0.012238078939222515, 'learning_rate_mode': 'fixed', 'discount': 0.8893989984846717}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:10<00:00,  2.99it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:31:19,124] Trial 56 finished with value: 3.6 and parameters: {'initial_q': -0.07541206470598297, 'learning_rate': 0.03528767933498204, 'learning_rate_mode': 'adaptive', 'discount': 0.8274090064880316}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:11<00:00,  2.62it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:32:34,992] Trial 57 finished with value: 4.066666666666666 and parameters: {'initial_q': -0.4600511698912034, 'learning_rate': 0.003047321133649668, 'learning_rate_mode': 'adaptive', 'discount': 0.5799425597783155}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:07<00:00,  4.02it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:33:47,685] Trial 58 finished with value: 2.2333333333333334 and parameters: {'initial_q': -0.6024978763758253, 'learning_rate': 0.009575643006196805, 'learning_rate_mode': 'adaptive', 'discount': 0.8443071740493262}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:08<00:00,  3.45it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:34:48,976] Trial 59 finished with value: 0.13333333333333333 and parameters: {'initial_q': 0.04094289053942485, 'learning_rate': 0.006090736899780594, 'learning_rate_mode': 'fixed', 'discount': 0.5310912117584999}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:12<00:00,  2.48it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:36:06,973] Trial 60 finished with value: 4.733333333333333 and parameters: {'initial_q': -0.12044440839097306, 'learning_rate': 1.001457746401293e-05, 'learning_rate_mode': 'adaptive', 'discount': 0.6901392061161592}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:10<00:00,  2.80it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:37:21,130] Trial 61 finished with value: 4.0 and parameters: {'initial_q': -0.18176425119983283, 'learning_rate': 0.003787969299147431, 'learning_rate_mode': 'adaptive', 'discount': 0.5461587476916879}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:08<00:00,  3.43it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:38:34,311] Trial 62 finished with value: 2.6 and parameters: {'initial_q': -0.873569674806155, 'learning_rate': 0.001674706615929812, 'learning_rate_mode': 'adaptive', 'discount': 0.6121072576542366}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:06<00:00,  4.51it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:39:45,245] Trial 63 finished with value: 2.8666666666666667 and parameters: {'initial_q': -0.8859938318739942, 'learning_rate': 0.002135944047631211, 'learning_rate_mode': 'adaptive', 'discount': 0.6539671374145789}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:10<00:00,  2.77it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:41:00,799] Trial 64 finished with value: 4.4 and parameters: {'initial_q': -0.611646374006353, 'learning_rate': 0.0012341349247006902, 'learning_rate_mode': 'adaptive', 'discount': 0.5206056225249012}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:06<00:00,  4.93it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:42:13,639] Trial 65 finished with value: 2.6666666666666665 and parameters: {'initial_q': -0.7225207827156213, 'learning_rate': 0.0005951639791996668, 'learning_rate_mode': 'adaptive', 'discount': 0.5787054906148463}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:10<00:00,  2.78it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:43:28,617] Trial 66 finished with value: 2.533333333333333 and parameters: {'initial_q': -0.3350485711025961, 'learning_rate': 0.01791491796967674, 'learning_rate_mode': 'adaptive', 'discount': 0.7999410950494744}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:09<00:00,  3.09it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:44:46,179] Trial 67 finished with value: 3.533333333333333 and parameters: {'initial_q': -0.44134381626662667, 'learning_rate': 0.008274967805346397, 'learning_rate_mode': 'adaptive', 'discount': 0.5417742818759905}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:11<00:00,  2.63it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:46:05,970] Trial 68 finished with value: 0.03333333333333333 and parameters: {'initial_q': 0.1244684877522867, 'learning_rate': 0.0022759273101011375, 'learning_rate_mode': 'adaptive', 'discount': 0.7334957697221792}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:08<00:00,  3.67it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:47:06,494] Trial 69 finished with value: 4.3 and parameters: {'initial_q': -0.2466827733931099, 'learning_rate': 2.6335455166450796e-05, 'learning_rate_mode': 'fixed', 'discount': 0.7500919437069137}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:08<00:00,  3.69it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:48:19,525] Trial 70 finished with value: 5.2 and parameters: {'initial_q': -0.027019707075197436, 'learning_rate': 0.0009087143413574294, 'learning_rate_mode': 'adaptive', 'discount': 0.8752620723243267}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:10<00:00,  2.73it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:49:34,717] Trial 71 finished with value: 3.533333333333333 and parameters: {'initial_q': -0.03484854440182003, 'learning_rate': 0.0008186923899503734, 'learning_rate_mode': 'adaptive', 'discount': 0.9642912030877704}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:06<00:00,  4.93it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:50:45,928] Trial 72 finished with value: 2.8 and parameters: {'initial_q': -0.1867883904232715, 'learning_rate': 0.000595839966527295, 'learning_rate_mode': 'adaptive', 'discount': 0.9288956607646529}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:10<00:00,  2.77it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:52:05,311] Trial 73 finished with value: 0.26666666666666666 and parameters: {'initial_q': 0.028119088825487137, 'learning_rate': 0.0043261321152041265, 'learning_rate_mode': 'adaptive', 'discount': 0.8783435040411115}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:10<00:00,  2.89it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:53:20,592] Trial 74 finished with value: 4.266666666666667 and parameters: {'initial_q': -0.08188906961049958, 'learning_rate': 0.00019450295781076754, 'learning_rate_mode': 'adaptive', 'discount': 0.5033426540649766}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:11<00:00,  2.71it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:54:34,847] Trial 75 finished with value: 0.06666666666666667 and parameters: {'initial_q': 0.21215799805648028, 'learning_rate': 0.00044408389453628956, 'learning_rate_mode': 'adaptive', 'discount': 0.8609023924245195}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:10<00:00,  2.98it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:55:49,987] Trial 76 finished with value: 2.8333333333333335 and parameters: {'initial_q': -0.28831230897745425, 'learning_rate': 0.0026933241357422833, 'learning_rate_mode': 'adaptive', 'discount': 0.7010393494522695}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:09<00:00,  3.23it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:57:05,929] Trial 77 finished with value: 5.5 and parameters: {'initial_q': -0.027184512461078406, 'learning_rate': 0.0011276777611912737, 'learning_rate_mode': 'adaptive', 'discount': 0.9099728217744126}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:10<00:00,  2.92it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:58:21,647] Trial 78 finished with value: 0.6 and parameters: {'initial_q': 0.10221534397997628, 'learning_rate': 0.00037383545391375726, 'learning_rate_mode': 'adaptive', 'discount': 0.881337721215923}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:09<00:00,  3.01it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 17:59:36,106] Trial 79 finished with value: 3.2 and parameters: {'initial_q': -0.01998320276440831, 'learning_rate': 0.02864871896649719, 'learning_rate_mode': 'adaptive', 'discount': 0.916047906719711}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:09<00:00,  3.18it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 18:00:53,096] Trial 80 finished with value: 2.9 and parameters: {'initial_q': -0.12062353245921972, 'learning_rate': 0.0011115614346341306, 'learning_rate_mode': 'adaptive', 'discount': 0.9489153315892018}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:08<00:00,  3.37it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 18:02:08,966] Trial 81 finished with value: 2.8 and parameters: {'initial_q': -0.16347007297104807, 'learning_rate': 0.0018255452026136182, 'learning_rate_mode': 'adaptive', 'discount': 0.8996024108281196}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:06<00:00,  4.60it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 18:03:25,213] Trial 82 finished with value: 2.8666666666666667 and parameters: {'initial_q': -0.22337026262694423, 'learning_rate': 0.0007966999217119097, 'learning_rate_mode': 'adaptive', 'discount': 0.9704334319662922}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:08<00:00,  3.34it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 18:04:41,097] Trial 83 finished with value: 4.0 and parameters: {'initial_q': -0.07004064924812424, 'learning_rate': 0.014915491529579702, 'learning_rate_mode': 'adaptive', 'discount': 0.9368927862551337}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:10<00:00,  2.85it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 18:05:56,481] Trial 84 finished with value: 0.3 and parameters: {'initial_q': 0.028595488824000787, 'learning_rate': 0.007674696606590214, 'learning_rate_mode': 'adaptive', 'discount': 0.7714527454165157}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:08<00:00,  3.51it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 18:07:09,726] Trial 85 finished with value: 0.23333333333333334 and parameters: {'initial_q': 0.061355218282962365, 'learning_rate': 0.0037372908523011553, 'learning_rate_mode': 'adaptive', 'discount': 0.5570423123813948}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:09<00:00,  3.10it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 18:08:26,238] Trial 86 finished with value: 0.1 and parameters: {'initial_q': 0.24445924766659707, 'learning_rate': 0.0014794539772334948, 'learning_rate_mode': 'adaptive', 'discount': 0.9115227858129998}. Best is trial 26 with value: 5.733333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:05<00:00,  5.52it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 18:09:24,381] Trial 87 finished with value: 6.233333333333333 and parameters: {'initial_q': -0.42536811010797076, 'learning_rate': 0.019220669522827652, 'learning_rate_mode': 'fixed', 'discount': 0.8241842124605607}. Best is trial 87 with value: 6.233333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:07<00:00,  3.92it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 18:10:25,472] Trial 88 finished with value: 3.5 and parameters: {'initial_q': -0.41189889673347396, 'learning_rate': 0.019097893196037125, 'learning_rate_mode': 'fixed', 'discount': 0.8443889685996815}. Best is trial 87 with value: 6.233333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:08<00:00,  3.59it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 18:11:28,860] Trial 89 finished with value: 6.133333333333334 and parameters: {'initial_q': -0.2719078005789809, 'learning_rate': 0.012154283460051773, 'learning_rate_mode': 'fixed', 'discount': 0.8174318204232238}. Best is trial 87 with value: 6.233333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:06<00:00,  4.47it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 18:12:28,651] Trial 90 finished with value: 5.7 and parameters: {'initial_q': -0.2744683292115445, 'learning_rate': 0.012393871040068569, 'learning_rate_mode': 'fixed', 'discount': 0.7863237865666852}. Best is trial 87 with value: 6.233333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:05<00:00,  5.16it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 18:13:26,342] Trial 91 finished with value: 4.0 and parameters: {'initial_q': -0.35806810219287605, 'learning_rate': 0.043085611025822125, 'learning_rate_mode': 'fixed', 'discount': 0.7864439690414504}. Best is trial 87 with value: 6.233333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:06<00:00,  4.87it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 18:14:26,150] Trial 92 finished with value: 5.866666666666666 and parameters: {'initial_q': -0.5482791686711113, 'learning_rate': 0.013251781606975795, 'learning_rate_mode': 'fixed', 'discount': 0.7935188723003765}. Best is trial 87 with value: 6.233333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:11<00:00,  2.60it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 18:15:34,835] Trial 93 finished with value: 5.033333333333333 and parameters: {'initial_q': -0.5225346623766609, 'learning_rate': 0.013564632074148451, 'learning_rate_mode': 'fixed', 'discount': 0.8198247319870953}. Best is trial 87 with value: 6.233333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:07<00:00,  4.00it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 18:16:36,136] Trial 94 finished with value: 5.533333333333333 and parameters: {'initial_q': -0.4551232303908085, 'learning_rate': 0.021335782634061204, 'learning_rate_mode': 'fixed', 'discount': 0.7959948275701342}. Best is trial 87 with value: 6.233333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:10<00:00,  2.79it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 18:17:40,132] Trial 95 finished with value: 3.1666666666666665 and parameters: {'initial_q': -0.47499491341640065, 'learning_rate': 0.06933256818767472, 'learning_rate_mode': 'fixed', 'discount': 0.7978633002514643}. Best is trial 87 with value: 6.233333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:09<00:00,  3.26it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 18:18:41,958] Trial 96 finished with value: 3.8 and parameters: {'initial_q': -0.5807040202822087, 'learning_rate': 0.03276083447346359, 'learning_rate_mode': 'fixed', 'discount': 0.8144621416405681}. Best is trial 87 with value: 6.233333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:07<00:00,  3.79it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 18:19:42,316] Trial 97 finished with value: 5.933333333333334 and parameters: {'initial_q': -0.5532746669372857, 'learning_rate': 0.01962267028832926, 'learning_rate_mode': 'fixed', 'discount': 0.7867614886972837}. Best is trial 87 with value: 6.233333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:08<00:00,  3.40it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 18:20:43,644] Trial 98 finished with value: 6.333333333333333 and parameters: {'initial_q': -0.6340190163036856, 'learning_rate': 0.02191789644515872, 'learning_rate_mode': 'fixed', 'discount': 0.7774798361133805}. Best is trial 98 with value: 6.333333333333333.
+Loaded 50000 episodes from 1 file(s).
+50000 episodes remaining. Visited 0 states
+[Chunk 1] Saved single-archive snapshot to agent_code/tq_optuna/dicts/q_table_chunk_0001.npz
+[Chunk 1] Evaluating agent with 30 rounds...
+Loading model from saved state.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:09<00:00,  3.21it/s]
+[Chunk 1] Evaluation stats saved to agent_code/tq_optuna/dicts/eval_chunk_0001.json
+Training complete.
+[I 2025-08-17 18:21:45,427] Trial 99 finished with value: 6.5 and parameters: {'initial_q': -0.6374781608899868, 'learning_rate': 0.021974521773962988, 'learning_rate_mode': 'fixed', 'discount': 0.7603525592096564}. Best is trial 99 with value: 6.5.
+Best trial:
+FrozenTrial(number=99, state=TrialState.COMPLETE, values=[6.5], datetime_start=datetime.datetime(2025, 8, 17, 18, 20, 43, 644934), datetime_complete=datetime.datetime(2025, 8, 17, 18, 21, 45, 427267), params={'initial_q': -0.6374781608899868, 'learning_rate': 0.021974521773962988, 'learning_rate_mode': 'fixed', 'discount': 0.7603525592096564}, user_attrs={}, system_attrs={}, intermediate_values={}, distributions={'initial_q': FloatDistribution(high=1.0, log=False, low=-1.0, step=None), 'learning_rate': FloatDistribution(high=0.1, log=True, low=1e-05, step=None), 'learning_rate_mode': CategoricalDistribution(choices=('fixed', 'adaptive')), 'discount': FloatDistribution(high=0.99, log=False, low=0.5, step=None)}, trial_id=99, value=None)
+
+Best params:
+initial_q: -0.6374781608899868
+learning_rate: 0.021974521773962988
+learning_rate_mode: fixed
+discount: 0.7603525592096564
+```
+
+### Code
+
+
+```
+#!/usr/bin/env python3
+import optuna
+import subprocess
+import os
+import json
+import pickle
+import shutil
+import tempfile
+import numpy as np
+
+DICT_FOLDER = "optuna"
+MAIN_SCRIPT = "q_pretrain_tabular.py"
+
+def run_training(params):
+    output_q_file = "agent_code/tq_optuna/q_table.npz"
+
+    cmd = [
+        "python3", MAIN_SCRIPT,
+        "--transitions-file", "agent_code/tq_demonstrator/runs/three_rule_based_peaceful_50k_18bit/transitions.pkl",  # Change as needed
+        "--output-q-file", output_q_file,
+        "--training-episodes", "50000",
+        "--num-chunks", "1",
+        "--evaluate",
+        "--agents", "tq_optuna", "rule_based_agent", "rule_based_agent", "peaceful_agent",
+        "--scenario", "classic",
+        "--eval-rounds", "30",
+        "--initial-q", str(params["initial_q"]),
+        "--learning-rate", str(params["learning_rate"]),
+        "--learning-rate-mode", params["learning_rate_mode"],
+        "--discount", str(params["discount"])
+    ]
+
+    subprocess.run(cmd, check=True)
+    return
+
+def evaluate_last_json(dict_folder, agent_name="tq_optuna"):
+    json_files = sorted(
+        [f for f in os.listdir(dict_folder) if f.startswith("eval_chunk_") and f.endswith(".json")]
+    )
+    if not json_files:
+        raise FileNotFoundError("No evaluation JSONs found.")
+
+    last_json_path = os.path.join(dict_folder, json_files[-1])
+    with open(last_json_path, "r") as f:
+        data = json.load(f)
+
+    agent_data = data["by_agent"].get(agent_name)
+    if agent_data is None:
+        raise ValueError(f"Agent '{agent_name}' not found in {last_json_path}")
+
+
+    score = agent_data.get("score", 0)
+    rounds = agent_data.get("rounds", 1)
+    avg_score = score / rounds
+    return avg_score
+
+
+def objective(trial):
+    # Define search space
+    params = {
+        "initial_q": trial.suggest_float("initial_q", -1.0, 1.0),
+        "learning_rate": trial.suggest_float("learning_rate", 1e-5, 1e-1, log=True),
+        "learning_rate_mode": trial.suggest_categorical("learning_rate_mode", ["fixed", "adaptive"]),
+        "discount": trial.suggest_float("discount", 0.5, 0.99)
+    }
+
+    try:
+        dict_folder = run_training(params)
+        score = evaluate_last_json("agent_code/tq_optuna/dicts")
+        return score
+    except Exception as e:
+        print(f"Trial {trial.number} failed: {e}")
+        return float("-inf")
+
+def main():
+    os.makedirs(DICT_FOLDER, exist_ok=True)
+
+    study = optuna.create_study(direction="maximize")
+    study.optimize(objective, n_trials=100)
+
+    print("Best trial:")
+    print(study.best_trial)
+
+    print("\nBest params:")
+    for key, val in study.best_trial.params.items():
+        print(f"{key}: {val}")
+    import pickle
+
+    with open("optuna_study.pkl", "wb") as f:
+        pickle.dump(study, f)
+
+if __name__ == "__main__":
+    main()
+```

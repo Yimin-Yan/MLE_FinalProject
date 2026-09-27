@@ -1,0 +1,859 @@
+2019-03-20 00:08:05,187 [BombeRLeWorld] INFO: STARTING ROUND #27
+2019-03-20 00:08:05,212 [BombeRLeWorld] INFO: STARTING STEP 1
+2019-03-20 00:08:05,222 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:05,262 [BombeRLeWorld] INFO: STARTING STEP 2
+2019-03-20 00:08:05,281 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.02s.
+2019-03-20 00:08:05,312 [BombeRLeWorld] INFO: STARTING STEP 3
+2019-03-20 00:08:05,322 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:05,362 [BombeRLeWorld] INFO: STARTING STEP 4
+2019-03-20 00:08:05,372 [BombeRLeWorld] INFO: Agent <cratemate> chose action BOMB in 0.01s.
+2019-03-20 00:08:05,372 [BombeRLeWorld] INFO: Agent <cratemate> drops bomb at (15, 14)
+2019-03-20 00:08:05,412 [BombeRLeWorld] INFO: STARTING STEP 5
+2019-03-20 00:08:05,427 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:05,462 [BombeRLeWorld] INFO: STARTING STEP 6
+2019-03-20 00:08:05,466 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.00s.
+2019-03-20 00:08:05,512 [BombeRLeWorld] INFO: STARTING STEP 7
+2019-03-20 00:08:05,522 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:05,562 [BombeRLeWorld] INFO: STARTING STEP 8
+2019-03-20 00:08:05,572 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:05,612 [BombeRLeWorld] INFO: STARTING STEP 9
+2019-03-20 00:08:05,622 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:05,623 [BombeRLeWorld] INFO: Agent <cratemate>'s bomb at (15, 14) explodes
+2019-03-20 00:08:05,623 [BombeRLeWorld] INFO: Coin found at (15, 12)
+2019-03-20 00:08:05,662 [BombeRLeWorld] INFO: STARTING STEP 10
+2019-03-20 00:08:05,673 [BombeRLeWorld] INFO: Agent <cratemate> chose action BOMB in 0.01s.
+2019-03-20 00:08:05,673 [BombeRLeWorld] INFO: Agent <cratemate> drops bomb at (14, 15)
+2019-03-20 00:08:05,713 [BombeRLeWorld] INFO: STARTING STEP 11
+2019-03-20 00:08:05,722 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:05,763 [BombeRLeWorld] INFO: STARTING STEP 12
+2019-03-20 00:08:05,773 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:05,817 [BombeRLeWorld] INFO: STARTING STEP 13
+2019-03-20 00:08:05,822 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.00s.
+2019-03-20 00:08:05,867 [BombeRLeWorld] INFO: STARTING STEP 14
+2019-03-20 00:08:05,877 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:05,917 [BombeRLeWorld] INFO: STARTING STEP 15
+2019-03-20 00:08:05,927 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:05,928 [BombeRLeWorld] INFO: Agent <cratemate>'s bomb at (14, 15) explodes
+2019-03-20 00:08:05,972 [BombeRLeWorld] INFO: STARTING STEP 16
+2019-03-20 00:08:05,982 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:05,982 [BombeRLeWorld] INFO: Agent <cratemate> picked up coin at (15, 12) and receives 1 point
+2019-03-20 00:08:06,022 [BombeRLeWorld] INFO: STARTING STEP 17
+2019-03-20 00:08:06,032 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:06,072 [BombeRLeWorld] INFO: STARTING STEP 18
+2019-03-20 00:08:06,082 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:06,126 [BombeRLeWorld] INFO: STARTING STEP 19
+2019-03-20 00:08:06,137 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:06,176 [BombeRLeWorld] INFO: STARTING STEP 20
+2019-03-20 00:08:06,185 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:06,226 [BombeRLeWorld] INFO: STARTING STEP 21
+2019-03-20 00:08:06,235 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:06,280 [BombeRLeWorld] INFO: STARTING STEP 22
+2019-03-20 00:08:06,291 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:06,330 [BombeRLeWorld] INFO: STARTING STEP 23
+2019-03-20 00:08:06,340 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:06,381 [BombeRLeWorld] INFO: STARTING STEP 24
+2019-03-20 00:08:06,390 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:06,434 [BombeRLeWorld] INFO: STARTING STEP 25
+2019-03-20 00:08:06,445 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:06,484 [BombeRLeWorld] INFO: STARTING STEP 26
+2019-03-20 00:08:06,494 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:06,535 [BombeRLeWorld] INFO: STARTING STEP 27
+2019-03-20 00:08:06,540 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.00s.
+2019-03-20 00:08:06,589 [BombeRLeWorld] INFO: STARTING STEP 28
+2019-03-20 00:08:06,599 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:06,639 [BombeRLeWorld] INFO: STARTING STEP 29
+2019-03-20 00:08:06,644 [BombeRLeWorld] INFO: Agent <cratemate> chose action BOMB in 0.00s.
+2019-03-20 00:08:06,645 [BombeRLeWorld] INFO: Agent <cratemate> drops bomb at (15, 14)
+2019-03-20 00:08:06,689 [BombeRLeWorld] INFO: STARTING STEP 30
+2019-03-20 00:08:06,694 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.00s.
+2019-03-20 00:08:06,744 [BombeRLeWorld] INFO: STARTING STEP 31
+2019-03-20 00:08:06,780 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.04s.
+2019-03-20 00:08:06,794 [BombeRLeWorld] INFO: STARTING STEP 32
+2019-03-20 00:08:06,892 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.10s.
+2019-03-20 00:08:06,892 [BombeRLeWorld] INFO: STARTING STEP 33
+2019-03-20 00:08:06,920 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.03s.
+2019-03-20 00:08:06,942 [BombeRLeWorld] INFO: STARTING STEP 34
+2019-03-20 00:08:06,951 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:06,951 [BombeRLeWorld] INFO: Agent <cratemate>'s bomb at (15, 14) explodes
+2019-03-20 00:08:06,996 [BombeRLeWorld] INFO: STARTING STEP 35
+2019-03-20 00:08:07,013 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.02s.
+2019-03-20 00:08:07,046 [BombeRLeWorld] INFO: STARTING STEP 36
+2019-03-20 00:08:07,056 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:07,096 [BombeRLeWorld] INFO: STARTING STEP 37
+2019-03-20 00:08:07,104 [BombeRLeWorld] INFO: Agent <cratemate> chose action BOMB in 0.01s.
+2019-03-20 00:08:07,104 [BombeRLeWorld] INFO: Agent <cratemate> drops bomb at (13, 15)
+2019-03-20 00:08:07,146 [BombeRLeWorld] INFO: STARTING STEP 38
+2019-03-20 00:08:07,171 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.02s.
+2019-03-20 00:08:07,196 [BombeRLeWorld] INFO: STARTING STEP 39
+2019-03-20 00:08:07,206 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:07,246 [BombeRLeWorld] INFO: STARTING STEP 40
+2019-03-20 00:08:07,258 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:07,296 [BombeRLeWorld] INFO: STARTING STEP 41
+2019-03-20 00:08:07,317 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:07,347 [BombeRLeWorld] INFO: STARTING STEP 42
+2019-03-20 00:08:07,356 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:07,356 [BombeRLeWorld] INFO: Agent <cratemate>'s bomb at (13, 15) explodes
+2019-03-20 00:08:07,397 [BombeRLeWorld] INFO: STARTING STEP 43
+2019-03-20 00:08:07,406 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:07,447 [BombeRLeWorld] INFO: STARTING STEP 44
+2019-03-20 00:08:07,452 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.00s.
+2019-03-20 00:08:07,497 [BombeRLeWorld] INFO: STARTING STEP 45
+2019-03-20 00:08:07,506 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:07,549 [BombeRLeWorld] INFO: STARTING STEP 46
+2019-03-20 00:08:07,558 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:07,598 [BombeRLeWorld] INFO: STARTING STEP 47
+2019-03-20 00:08:07,607 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:07,648 [BombeRLeWorld] INFO: STARTING STEP 48
+2019-03-20 00:08:07,657 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:07,703 [BombeRLeWorld] INFO: STARTING STEP 49
+2019-03-20 00:08:07,712 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:07,752 [BombeRLeWorld] INFO: STARTING STEP 50
+2019-03-20 00:08:07,761 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:07,802 [BombeRLeWorld] INFO: STARTING STEP 51
+2019-03-20 00:08:07,808 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:07,857 [BombeRLeWorld] INFO: STARTING STEP 52
+2019-03-20 00:08:07,867 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:07,906 [BombeRLeWorld] INFO: STARTING STEP 53
+2019-03-20 00:08:07,913 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:07,956 [BombeRLeWorld] INFO: STARTING STEP 54
+2019-03-20 00:08:07,963 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:08,010 [BombeRLeWorld] INFO: STARTING STEP 55
+2019-03-20 00:08:08,020 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:08,060 [BombeRLeWorld] INFO: STARTING STEP 56
+2019-03-20 00:08:08,068 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:08,110 [BombeRLeWorld] INFO: STARTING STEP 57
+2019-03-20 00:08:08,118 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:08,164 [BombeRLeWorld] INFO: STARTING STEP 58
+2019-03-20 00:08:08,172 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:08,214 [BombeRLeWorld] INFO: STARTING STEP 59
+2019-03-20 00:08:08,222 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:08,265 [BombeRLeWorld] INFO: STARTING STEP 60
+2019-03-20 00:08:08,272 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:08,319 [BombeRLeWorld] INFO: STARTING STEP 61
+2019-03-20 00:08:08,327 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:08,369 [BombeRLeWorld] INFO: STARTING STEP 62
+2019-03-20 00:08:08,376 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:08,419 [BombeRLeWorld] INFO: STARTING STEP 63
+2019-03-20 00:08:08,426 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:08,471 [BombeRLeWorld] INFO: STARTING STEP 64
+2019-03-20 00:08:08,477 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:08,521 [BombeRLeWorld] INFO: STARTING STEP 65
+2019-03-20 00:08:08,529 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:08,571 [BombeRLeWorld] INFO: STARTING STEP 66
+2019-03-20 00:08:08,579 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:08,621 [BombeRLeWorld] INFO: STARTING STEP 67
+2019-03-20 00:08:08,636 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:08,671 [BombeRLeWorld] INFO: STARTING STEP 68
+2019-03-20 00:08:08,679 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:08,721 [BombeRLeWorld] INFO: STARTING STEP 69
+2019-03-20 00:08:08,729 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:08,772 [BombeRLeWorld] INFO: STARTING STEP 70
+2019-03-20 00:08:08,789 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.02s.
+2019-03-20 00:08:08,822 [BombeRLeWorld] INFO: STARTING STEP 71
+2019-03-20 00:08:08,829 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:08,872 [BombeRLeWorld] INFO: STARTING STEP 72
+2019-03-20 00:08:08,879 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:08,922 [BombeRLeWorld] INFO: STARTING STEP 73
+2019-03-20 00:08:08,929 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:08,972 [BombeRLeWorld] INFO: STARTING STEP 74
+2019-03-20 00:08:08,980 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:09,025 [BombeRLeWorld] INFO: STARTING STEP 75
+2019-03-20 00:08:09,033 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:09,075 [BombeRLeWorld] INFO: STARTING STEP 76
+2019-03-20 00:08:09,083 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:09,125 [BombeRLeWorld] INFO: STARTING STEP 77
+2019-03-20 00:08:09,136 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:09,175 [BombeRLeWorld] INFO: STARTING STEP 78
+2019-03-20 00:08:09,203 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.03s.
+2019-03-20 00:08:09,225 [BombeRLeWorld] INFO: STARTING STEP 79
+2019-03-20 00:08:09,233 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:09,275 [BombeRLeWorld] INFO: STARTING STEP 80
+2019-03-20 00:08:09,283 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:09,325 [BombeRLeWorld] INFO: STARTING STEP 81
+2019-03-20 00:08:09,333 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:09,375 [BombeRLeWorld] INFO: STARTING STEP 82
+2019-03-20 00:08:09,383 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:09,425 [BombeRLeWorld] INFO: STARTING STEP 83
+2019-03-20 00:08:09,433 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:09,475 [BombeRLeWorld] INFO: STARTING STEP 84
+2019-03-20 00:08:09,483 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:09,525 [BombeRLeWorld] INFO: STARTING STEP 85
+2019-03-20 00:08:09,534 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:09,576 [BombeRLeWorld] INFO: STARTING STEP 86
+2019-03-20 00:08:09,581 [BombeRLeWorld] INFO: Agent <cratemate> chose action BOMB in 0.00s.
+2019-03-20 00:08:09,581 [BombeRLeWorld] INFO: Agent <cratemate> drops bomb at (15, 15)
+2019-03-20 00:08:09,626 [BombeRLeWorld] INFO: STARTING STEP 87
+2019-03-20 00:08:09,634 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:09,676 [BombeRLeWorld] INFO: STARTING STEP 88
+2019-03-20 00:08:09,684 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:09,726 [BombeRLeWorld] INFO: STARTING STEP 89
+2019-03-20 00:08:09,736 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:09,776 [BombeRLeWorld] INFO: STARTING STEP 90
+2019-03-20 00:08:09,784 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:09,826 [BombeRLeWorld] INFO: STARTING STEP 91
+2019-03-20 00:08:09,834 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:09,834 [BombeRLeWorld] INFO: Agent <cratemate>'s bomb at (15, 15) explodes
+2019-03-20 00:08:09,879 [BombeRLeWorld] INFO: STARTING STEP 92
+2019-03-20 00:08:09,887 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:09,929 [BombeRLeWorld] INFO: STARTING STEP 93
+2019-03-20 00:08:09,936 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:09,979 [BombeRLeWorld] INFO: STARTING STEP 94
+2019-03-20 00:08:09,986 [BombeRLeWorld] INFO: Agent <cratemate> chose action BOMB in 0.01s.
+2019-03-20 00:08:09,986 [BombeRLeWorld] INFO: Agent <cratemate> drops bomb at (13, 12)
+2019-03-20 00:08:10,030 [BombeRLeWorld] INFO: STARTING STEP 95
+2019-03-20 00:08:10,038 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:10,080 [BombeRLeWorld] INFO: STARTING STEP 96
+2019-03-20 00:08:10,088 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:10,130 [BombeRLeWorld] INFO: STARTING STEP 97
+2019-03-20 00:08:10,138 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:10,180 [BombeRLeWorld] INFO: STARTING STEP 98
+2019-03-20 00:08:10,195 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:10,230 [BombeRLeWorld] INFO: STARTING STEP 99
+2019-03-20 00:08:10,238 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:10,239 [BombeRLeWorld] INFO: Agent <cratemate>'s bomb at (13, 12) explodes
+2019-03-20 00:08:10,280 [BombeRLeWorld] INFO: STARTING STEP 100
+2019-03-20 00:08:10,289 [BombeRLeWorld] INFO: Agent <cratemate> chose action BOMB in 0.01s.
+2019-03-20 00:08:10,289 [BombeRLeWorld] INFO: Agent <cratemate> drops bomb at (14, 13)
+2019-03-20 00:08:10,330 [BombeRLeWorld] INFO: STARTING STEP 101
+2019-03-20 00:08:10,339 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:10,380 [BombeRLeWorld] INFO: STARTING STEP 102
+2019-03-20 00:08:10,389 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:10,431 [BombeRLeWorld] INFO: STARTING STEP 103
+2019-03-20 00:08:10,439 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:10,481 [BombeRLeWorld] INFO: STARTING STEP 104
+2019-03-20 00:08:10,489 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:10,531 [BombeRLeWorld] INFO: STARTING STEP 105
+2019-03-20 00:08:10,539 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:10,539 [BombeRLeWorld] INFO: Agent <cratemate>'s bomb at (14, 13) explodes
+2019-03-20 00:08:10,581 [BombeRLeWorld] INFO: STARTING STEP 106
+2019-03-20 00:08:10,588 [BombeRLeWorld] INFO: Agent <cratemate> chose action BOMB in 0.01s.
+2019-03-20 00:08:10,588 [BombeRLeWorld] INFO: Agent <cratemate> drops bomb at (15, 11)
+2019-03-20 00:08:10,631 [BombeRLeWorld] INFO: STARTING STEP 107
+2019-03-20 00:08:10,639 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:10,681 [BombeRLeWorld] INFO: STARTING STEP 108
+2019-03-20 00:08:10,689 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:10,731 [BombeRLeWorld] INFO: STARTING STEP 109
+2019-03-20 00:08:10,740 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:10,781 [BombeRLeWorld] INFO: STARTING STEP 110
+2019-03-20 00:08:10,790 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:10,831 [BombeRLeWorld] INFO: STARTING STEP 111
+2019-03-20 00:08:10,840 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:10,841 [BombeRLeWorld] INFO: Agent <cratemate>'s bomb at (15, 11) explodes
+2019-03-20 00:08:10,881 [BombeRLeWorld] INFO: STARTING STEP 112
+2019-03-20 00:08:10,890 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:10,931 [BombeRLeWorld] INFO: STARTING STEP 113
+2019-03-20 00:08:10,951 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.02s.
+2019-03-20 00:08:10,981 [BombeRLeWorld] INFO: STARTING STEP 114
+2019-03-20 00:08:10,992 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:11,031 [BombeRLeWorld] INFO: STARTING STEP 115
+2019-03-20 00:08:11,040 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:11,081 [BombeRLeWorld] INFO: STARTING STEP 116
+2019-03-20 00:08:11,090 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:11,131 [BombeRLeWorld] INFO: STARTING STEP 117
+2019-03-20 00:08:11,140 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:11,187 [BombeRLeWorld] INFO: STARTING STEP 118
+2019-03-20 00:08:11,199 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:11,237 [BombeRLeWorld] INFO: STARTING STEP 119
+2019-03-20 00:08:11,245 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:11,287 [BombeRLeWorld] INFO: STARTING STEP 120
+2019-03-20 00:08:11,296 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:11,337 [BombeRLeWorld] INFO: STARTING STEP 121
+2019-03-20 00:08:11,356 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.02s.
+2019-03-20 00:08:11,388 [BombeRLeWorld] INFO: STARTING STEP 122
+2019-03-20 00:08:11,394 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:11,438 [BombeRLeWorld] INFO: STARTING STEP 123
+2019-03-20 00:08:11,446 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:11,488 [BombeRLeWorld] INFO: STARTING STEP 124
+2019-03-20 00:08:11,496 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:11,538 [BombeRLeWorld] INFO: STARTING STEP 125
+2019-03-20 00:08:11,547 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:11,588 [BombeRLeWorld] INFO: STARTING STEP 126
+2019-03-20 00:08:11,597 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:11,638 [BombeRLeWorld] INFO: STARTING STEP 127
+2019-03-20 00:08:11,647 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:11,689 [BombeRLeWorld] INFO: STARTING STEP 128
+2019-03-20 00:08:11,698 [BombeRLeWorld] INFO: Agent <cratemate> chose action BOMB in 0.01s.
+2019-03-20 00:08:11,698 [BombeRLeWorld] INFO: Agent <cratemate> drops bomb at (15, 14)
+2019-03-20 00:08:11,739 [BombeRLeWorld] INFO: STARTING STEP 129
+2019-03-20 00:08:11,748 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:11,789 [BombeRLeWorld] INFO: STARTING STEP 130
+2019-03-20 00:08:11,798 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:11,839 [BombeRLeWorld] INFO: STARTING STEP 131
+2019-03-20 00:08:11,848 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:11,890 [BombeRLeWorld] INFO: STARTING STEP 132
+2019-03-20 00:08:11,896 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:11,940 [BombeRLeWorld] INFO: STARTING STEP 133
+2019-03-20 00:08:11,948 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:11,949 [BombeRLeWorld] INFO: Agent <cratemate>'s bomb at (15, 14) explodes
+2019-03-20 00:08:11,990 [BombeRLeWorld] INFO: STARTING STEP 134
+2019-03-20 00:08:11,998 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:12,040 [BombeRLeWorld] INFO: STARTING STEP 135
+2019-03-20 00:08:12,055 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:12,090 [BombeRLeWorld] INFO: STARTING STEP 136
+2019-03-20 00:08:12,098 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:12,140 [BombeRLeWorld] INFO: STARTING STEP 137
+2019-03-20 00:08:12,146 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:12,190 [BombeRLeWorld] INFO: STARTING STEP 138
+2019-03-20 00:08:12,198 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:12,240 [BombeRLeWorld] INFO: STARTING STEP 139
+2019-03-20 00:08:12,249 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:12,290 [BombeRLeWorld] INFO: STARTING STEP 140
+2019-03-20 00:08:12,298 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:12,340 [BombeRLeWorld] INFO: STARTING STEP 141
+2019-03-20 00:08:12,348 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:12,390 [BombeRLeWorld] INFO: STARTING STEP 142
+2019-03-20 00:08:12,399 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:12,440 [BombeRLeWorld] INFO: STARTING STEP 143
+2019-03-20 00:08:12,449 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:12,490 [BombeRLeWorld] INFO: STARTING STEP 144
+2019-03-20 00:08:12,498 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:12,541 [BombeRLeWorld] INFO: STARTING STEP 145
+2019-03-20 00:08:12,549 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:12,591 [BombeRLeWorld] INFO: STARTING STEP 146
+2019-03-20 00:08:12,597 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:12,641 [BombeRLeWorld] INFO: STARTING STEP 147
+2019-03-20 00:08:12,649 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:12,691 [BombeRLeWorld] INFO: STARTING STEP 148
+2019-03-20 00:08:12,699 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:12,741 [BombeRLeWorld] INFO: STARTING STEP 149
+2019-03-20 00:08:12,749 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:12,792 [BombeRLeWorld] INFO: STARTING STEP 150
+2019-03-20 00:08:12,802 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:12,842 [BombeRLeWorld] INFO: STARTING STEP 151
+2019-03-20 00:08:12,848 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:12,892 [BombeRLeWorld] INFO: STARTING STEP 152
+2019-03-20 00:08:12,901 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:12,942 [BombeRLeWorld] INFO: STARTING STEP 153
+2019-03-20 00:08:12,957 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:12,993 [BombeRLeWorld] INFO: STARTING STEP 154
+2019-03-20 00:08:12,999 [BombeRLeWorld] INFO: Agent <cratemate> chose action BOMB in 0.01s.
+2019-03-20 00:08:12,999 [BombeRLeWorld] INFO: Agent <cratemate> drops bomb at (11, 15)
+2019-03-20 00:08:13,043 [BombeRLeWorld] INFO: STARTING STEP 155
+2019-03-20 00:08:13,052 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:13,093 [BombeRLeWorld] INFO: STARTING STEP 156
+2019-03-20 00:08:13,110 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.02s.
+2019-03-20 00:08:13,143 [BombeRLeWorld] INFO: STARTING STEP 157
+2019-03-20 00:08:13,149 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:13,193 [BombeRLeWorld] INFO: STARTING STEP 158
+2019-03-20 00:08:13,203 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:13,243 [BombeRLeWorld] INFO: STARTING STEP 159
+2019-03-20 00:08:13,261 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:13,261 [BombeRLeWorld] INFO: Agent <cratemate>'s bomb at (11, 15) explodes
+2019-03-20 00:08:13,293 [BombeRLeWorld] INFO: STARTING STEP 160
+2019-03-20 00:08:13,302 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:13,343 [BombeRLeWorld] INFO: STARTING STEP 161
+2019-03-20 00:08:13,350 [BombeRLeWorld] INFO: Agent <cratemate> chose action WAIT in 0.01s.
+2019-03-20 00:08:13,393 [BombeRLeWorld] INFO: STARTING STEP 162
+2019-03-20 00:08:13,402 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:13,443 [BombeRLeWorld] INFO: STARTING STEP 163
+2019-03-20 00:08:13,453 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:13,493 [BombeRLeWorld] INFO: STARTING STEP 164
+2019-03-20 00:08:13,500 [BombeRLeWorld] INFO: Agent <cratemate> chose action BOMB in 0.01s.
+2019-03-20 00:08:13,500 [BombeRLeWorld] INFO: Agent <cratemate> drops bomb at (13, 15)
+2019-03-20 00:08:13,543 [BombeRLeWorld] INFO: STARTING STEP 165
+2019-03-20 00:08:13,553 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:13,594 [BombeRLeWorld] INFO: STARTING STEP 166
+2019-03-20 00:08:13,604 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:13,644 [BombeRLeWorld] INFO: STARTING STEP 167
+2019-03-20 00:08:13,653 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:13,694 [BombeRLeWorld] INFO: STARTING STEP 168
+2019-03-20 00:08:13,703 [BombeRLeWorld] INFO: Agent <cratemate> chose action WAIT in 0.01s.
+2019-03-20 00:08:13,744 [BombeRLeWorld] INFO: STARTING STEP 169
+2019-03-20 00:08:13,755 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:13,756 [BombeRLeWorld] INFO: Agent <cratemate>'s bomb at (13, 15) explodes
+2019-03-20 00:08:13,794 [BombeRLeWorld] INFO: STARTING STEP 170
+2019-03-20 00:08:13,803 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:13,844 [BombeRLeWorld] INFO: STARTING STEP 171
+2019-03-20 00:08:13,863 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.02s.
+2019-03-20 00:08:13,899 [BombeRLeWorld] INFO: STARTING STEP 172
+2019-03-20 00:08:13,911 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:13,949 [BombeRLeWorld] INFO: STARTING STEP 173
+2019-03-20 00:08:13,960 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:13,999 [BombeRLeWorld] INFO: STARTING STEP 174
+2019-03-20 00:08:14,011 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:14,049 [BombeRLeWorld] INFO: STARTING STEP 175
+2019-03-20 00:08:14,071 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.02s.
+2019-03-20 00:08:14,099 [BombeRLeWorld] INFO: STARTING STEP 176
+2019-03-20 00:08:14,111 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:14,150 [BombeRLeWorld] INFO: STARTING STEP 177
+2019-03-20 00:08:14,160 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:14,200 [BombeRLeWorld] INFO: STARTING STEP 178
+2019-03-20 00:08:14,207 [BombeRLeWorld] INFO: Agent <cratemate> chose action BOMB in 0.01s.
+2019-03-20 00:08:14,208 [BombeRLeWorld] INFO: Agent <cratemate> drops bomb at (13, 14)
+2019-03-20 00:08:14,250 [BombeRLeWorld] INFO: STARTING STEP 179
+2019-03-20 00:08:14,261 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:14,300 [BombeRLeWorld] INFO: STARTING STEP 180
+2019-03-20 00:08:14,308 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:14,350 [BombeRLeWorld] INFO: STARTING STEP 181
+2019-03-20 00:08:14,362 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:14,400 [BombeRLeWorld] INFO: STARTING STEP 182
+2019-03-20 00:08:14,409 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:14,450 [BombeRLeWorld] INFO: STARTING STEP 183
+2019-03-20 00:08:14,459 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:14,459 [BombeRLeWorld] INFO: Agent <cratemate>'s bomb at (13, 14) explodes
+2019-03-20 00:08:14,500 [BombeRLeWorld] INFO: STARTING STEP 184
+2019-03-20 00:08:14,508 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:14,550 [BombeRLeWorld] INFO: STARTING STEP 185
+2019-03-20 00:08:14,559 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:14,601 [BombeRLeWorld] INFO: STARTING STEP 186
+2019-03-20 00:08:14,616 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:14,651 [BombeRLeWorld] INFO: STARTING STEP 187
+2019-03-20 00:08:14,662 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:14,701 [BombeRLeWorld] INFO: STARTING STEP 188
+2019-03-20 00:08:14,711 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:14,751 [BombeRLeWorld] INFO: STARTING STEP 189
+2019-03-20 00:08:14,772 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.02s.
+2019-03-20 00:08:14,801 [BombeRLeWorld] INFO: STARTING STEP 190
+2019-03-20 00:08:14,812 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:14,851 [BombeRLeWorld] INFO: STARTING STEP 191
+2019-03-20 00:08:14,861 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:14,901 [BombeRLeWorld] INFO: STARTING STEP 192
+2019-03-20 00:08:14,912 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:14,951 [BombeRLeWorld] INFO: STARTING STEP 193
+2019-03-20 00:08:14,961 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:15,001 [BombeRLeWorld] INFO: STARTING STEP 194
+2019-03-20 00:08:15,012 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:15,051 [BombeRLeWorld] INFO: STARTING STEP 195
+2019-03-20 00:08:15,062 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:15,101 [BombeRLeWorld] INFO: STARTING STEP 196
+2019-03-20 00:08:15,112 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:15,152 [BombeRLeWorld] INFO: STARTING STEP 197
+2019-03-20 00:08:15,164 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:15,202 [BombeRLeWorld] INFO: STARTING STEP 198
+2019-03-20 00:08:15,213 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:15,252 [BombeRLeWorld] INFO: STARTING STEP 199
+2019-03-20 00:08:15,259 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:15,302 [BombeRLeWorld] INFO: STARTING STEP 200
+2019-03-20 00:08:15,323 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:15,352 [BombeRLeWorld] INFO: STARTING STEP 201
+2019-03-20 00:08:15,359 [BombeRLeWorld] INFO: Agent <cratemate> chose action WAIT in 0.01s.
+2019-03-20 00:08:15,402 [BombeRLeWorld] INFO: STARTING STEP 202
+2019-03-20 00:08:15,412 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:15,452 [BombeRLeWorld] INFO: STARTING STEP 203
+2019-03-20 00:08:15,521 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.07s.
+2019-03-20 00:08:15,521 [BombeRLeWorld] INFO: STARTING STEP 204
+2019-03-20 00:08:15,539 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.02s.
+2019-03-20 00:08:15,571 [BombeRLeWorld] INFO: STARTING STEP 205
+2019-03-20 00:08:15,580 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:15,621 [BombeRLeWorld] INFO: STARTING STEP 206
+2019-03-20 00:08:15,627 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:15,671 [BombeRLeWorld] INFO: STARTING STEP 207
+2019-03-20 00:08:15,679 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:15,721 [BombeRLeWorld] INFO: STARTING STEP 208
+2019-03-20 00:08:15,729 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:15,771 [BombeRLeWorld] INFO: STARTING STEP 209
+2019-03-20 00:08:15,780 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:15,821 [BombeRLeWorld] INFO: STARTING STEP 210
+2019-03-20 00:08:15,827 [BombeRLeWorld] INFO: Agent <cratemate> chose action WAIT in 0.01s.
+2019-03-20 00:08:15,871 [BombeRLeWorld] INFO: STARTING STEP 211
+2019-03-20 00:08:15,877 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.00s.
+2019-03-20 00:08:15,921 [BombeRLeWorld] INFO: STARTING STEP 212
+2019-03-20 00:08:15,929 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:15,971 [BombeRLeWorld] INFO: STARTING STEP 213
+2019-03-20 00:08:15,981 [BombeRLeWorld] INFO: Agent <cratemate> chose action BOMB in 0.01s.
+2019-03-20 00:08:15,981 [BombeRLeWorld] INFO: Agent <cratemate> drops bomb at (13, 9)
+2019-03-20 00:08:16,024 [BombeRLeWorld] INFO: STARTING STEP 214
+2019-03-20 00:08:16,035 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:16,074 [BombeRLeWorld] INFO: STARTING STEP 215
+2019-03-20 00:08:16,082 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:16,124 [BombeRLeWorld] INFO: STARTING STEP 216
+2019-03-20 00:08:16,133 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:16,178 [BombeRLeWorld] INFO: STARTING STEP 217
+2019-03-20 00:08:16,193 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:16,228 [BombeRLeWorld] INFO: STARTING STEP 218
+2019-03-20 00:08:16,236 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:16,236 [BombeRLeWorld] INFO: Agent <cratemate>'s bomb at (13, 9) explodes
+2019-03-20 00:08:16,237 [BombeRLeWorld] INFO: Coin found at (13, 8)
+2019-03-20 00:08:16,278 [BombeRLeWorld] INFO: STARTING STEP 219
+2019-03-20 00:08:16,288 [BombeRLeWorld] INFO: Agent <cratemate> chose action BOMB in 0.01s.
+2019-03-20 00:08:16,288 [BombeRLeWorld] INFO: Agent <cratemate> drops bomb at (12, 11)
+2019-03-20 00:08:16,332 [BombeRLeWorld] INFO: STARTING STEP 220
+2019-03-20 00:08:16,342 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:16,382 [BombeRLeWorld] INFO: STARTING STEP 221
+2019-03-20 00:08:16,391 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:16,432 [BombeRLeWorld] INFO: STARTING STEP 222
+2019-03-20 00:08:16,442 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:16,487 [BombeRLeWorld] INFO: STARTING STEP 223
+2019-03-20 00:08:16,497 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:16,537 [BombeRLeWorld] INFO: STARTING STEP 224
+2019-03-20 00:08:16,548 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:16,548 [BombeRLeWorld] INFO: Agent <cratemate> picked up coin at (13, 8) and receives 1 point
+2019-03-20 00:08:16,548 [BombeRLeWorld] INFO: Agent <cratemate>'s bomb at (12, 11) explodes
+2019-03-20 00:08:16,587 [BombeRLeWorld] INFO: STARTING STEP 225
+2019-03-20 00:08:16,594 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:16,641 [BombeRLeWorld] INFO: STARTING STEP 226
+2019-03-20 00:08:16,650 [BombeRLeWorld] INFO: Agent <cratemate> chose action BOMB in 0.01s.
+2019-03-20 00:08:16,650 [BombeRLeWorld] INFO: Agent <cratemate> drops bomb at (13, 8)
+2019-03-20 00:08:16,691 [BombeRLeWorld] INFO: STARTING STEP 227
+2019-03-20 00:08:16,701 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:16,741 [BombeRLeWorld] INFO: STARTING STEP 228
+2019-03-20 00:08:16,750 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:16,795 [BombeRLeWorld] INFO: STARTING STEP 229
+2019-03-20 00:08:16,808 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:16,845 [BombeRLeWorld] INFO: STARTING STEP 230
+2019-03-20 00:08:16,856 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:16,895 [BombeRLeWorld] INFO: STARTING STEP 231
+2019-03-20 00:08:16,902 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:16,902 [BombeRLeWorld] INFO: Agent <cratemate>'s bomb at (13, 8) explodes
+2019-03-20 00:08:16,948 [BombeRLeWorld] INFO: STARTING STEP 232
+2019-03-20 00:08:16,960 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:16,998 [BombeRLeWorld] INFO: STARTING STEP 233
+2019-03-20 00:08:17,029 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.03s.
+2019-03-20 00:08:17,048 [BombeRLeWorld] INFO: STARTING STEP 234
+2019-03-20 00:08:17,066 [BombeRLeWorld] INFO: Agent <cratemate> chose action BOMB in 0.01s.
+2019-03-20 00:08:17,066 [BombeRLeWorld] INFO: Agent <cratemate> drops bomb at (11, 8)
+2019-03-20 00:08:17,101 [BombeRLeWorld] INFO: STARTING STEP 235
+2019-03-20 00:08:17,109 [BombeRLeWorld] INFO: Agent <cratemate> chose action BOMB in 0.01s.
+2019-03-20 00:08:17,151 [BombeRLeWorld] INFO: STARTING STEP 236
+2019-03-20 00:08:17,162 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:17,201 [BombeRLeWorld] INFO: STARTING STEP 237
+2019-03-20 00:08:17,209 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:17,251 [BombeRLeWorld] INFO: STARTING STEP 238
+2019-03-20 00:08:17,271 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.02s.
+2019-03-20 00:08:17,301 [BombeRLeWorld] INFO: STARTING STEP 239
+2019-03-20 00:08:17,311 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:17,311 [BombeRLeWorld] INFO: Agent <cratemate>'s bomb at (11, 8) explodes
+2019-03-20 00:08:17,351 [BombeRLeWorld] INFO: STARTING STEP 240
+2019-03-20 00:08:17,360 [BombeRLeWorld] INFO: Agent <cratemate> chose action BOMB in 0.01s.
+2019-03-20 00:08:17,360 [BombeRLeWorld] INFO: Agent <cratemate> drops bomb at (10, 9)
+2019-03-20 00:08:17,401 [BombeRLeWorld] INFO: STARTING STEP 241
+2019-03-20 00:08:17,423 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.02s.
+2019-03-20 00:08:17,451 [BombeRLeWorld] INFO: STARTING STEP 242
+2019-03-20 00:08:17,462 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:17,501 [BombeRLeWorld] INFO: STARTING STEP 243
+2019-03-20 00:08:17,513 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:17,552 [BombeRLeWorld] INFO: STARTING STEP 244
+2019-03-20 00:08:17,561 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:17,602 [BombeRLeWorld] INFO: STARTING STEP 245
+2019-03-20 00:08:17,615 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:17,615 [BombeRLeWorld] INFO: Agent <cratemate>'s bomb at (10, 9) explodes
+2019-03-20 00:08:17,652 [BombeRLeWorld] INFO: STARTING STEP 246
+2019-03-20 00:08:17,662 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:17,702 [BombeRLeWorld] INFO: STARTING STEP 247
+2019-03-20 00:08:17,711 [BombeRLeWorld] INFO: Agent <cratemate> chose action BOMB in 0.01s.
+2019-03-20 00:08:17,711 [BombeRLeWorld] INFO: Agent <cratemate> drops bomb at (11, 5)
+2019-03-20 00:08:17,752 [BombeRLeWorld] INFO: STARTING STEP 248
+2019-03-20 00:08:17,762 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:17,802 [BombeRLeWorld] INFO: STARTING STEP 249
+2019-03-20 00:08:17,812 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:17,852 [BombeRLeWorld] INFO: STARTING STEP 250
+2019-03-20 00:08:17,875 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.02s.
+2019-03-20 00:08:17,902 [BombeRLeWorld] INFO: STARTING STEP 251
+2019-03-20 00:08:17,912 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:17,952 [BombeRLeWorld] INFO: STARTING STEP 252
+2019-03-20 00:08:17,966 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:17,966 [BombeRLeWorld] INFO: Agent <cratemate>'s bomb at (11, 5) explodes
+2019-03-20 00:08:18,002 [BombeRLeWorld] INFO: STARTING STEP 253
+2019-03-20 00:08:18,027 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.02s.
+2019-03-20 00:08:18,052 [BombeRLeWorld] INFO: STARTING STEP 254
+2019-03-20 00:08:18,066 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:18,102 [BombeRLeWorld] INFO: STARTING STEP 255
+2019-03-20 00:08:18,118 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:18,152 [BombeRLeWorld] INFO: STARTING STEP 256
+2019-03-20 00:08:18,162 [BombeRLeWorld] INFO: Agent <cratemate> chose action BOMB in 0.01s.
+2019-03-20 00:08:18,163 [BombeRLeWorld] INFO: Agent <cratemate> drops bomb at (13, 8)
+2019-03-20 00:08:18,202 [BombeRLeWorld] INFO: STARTING STEP 257
+2019-03-20 00:08:18,213 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:18,253 [BombeRLeWorld] INFO: STARTING STEP 258
+2019-03-20 00:08:18,269 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.02s.
+2019-03-20 00:08:18,303 [BombeRLeWorld] INFO: STARTING STEP 259
+2019-03-20 00:08:18,318 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:18,353 [BombeRLeWorld] INFO: STARTING STEP 260
+2019-03-20 00:08:18,369 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:18,403 [BombeRLeWorld] INFO: STARTING STEP 261
+2019-03-20 00:08:18,426 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.02s.
+2019-03-20 00:08:18,427 [BombeRLeWorld] INFO: Agent <cratemate>'s bomb at (13, 8) explodes
+2019-03-20 00:08:18,453 [BombeRLeWorld] INFO: STARTING STEP 262
+2019-03-20 00:08:18,466 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:18,504 [BombeRLeWorld] INFO: STARTING STEP 263
+2019-03-20 00:08:18,516 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:18,554 [BombeRLeWorld] INFO: STARTING STEP 264
+2019-03-20 00:08:18,574 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.02s.
+2019-03-20 00:08:18,604 [BombeRLeWorld] INFO: STARTING STEP 265
+2019-03-20 00:08:18,618 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:18,654 [BombeRLeWorld] INFO: STARTING STEP 266
+2019-03-20 00:08:18,666 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:18,704 [BombeRLeWorld] INFO: STARTING STEP 267
+2019-03-20 00:08:18,725 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.02s.
+2019-03-20 00:08:18,754 [BombeRLeWorld] INFO: STARTING STEP 268
+2019-03-20 00:08:18,770 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:18,804 [BombeRLeWorld] INFO: STARTING STEP 269
+2019-03-20 00:08:18,818 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:18,854 [BombeRLeWorld] INFO: STARTING STEP 270
+2019-03-20 00:08:18,877 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.02s.
+2019-03-20 00:08:18,904 [BombeRLeWorld] INFO: STARTING STEP 271
+2019-03-20 00:08:18,917 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:18,954 [BombeRLeWorld] INFO: STARTING STEP 272
+2019-03-20 00:08:18,969 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:19,004 [BombeRLeWorld] INFO: STARTING STEP 273
+2019-03-20 00:08:19,022 [BombeRLeWorld] INFO: Agent <cratemate> chose action BOMB in 0.01s.
+2019-03-20 00:08:19,023 [BombeRLeWorld] INFO: Agent <cratemate> drops bomb at (15, 10)
+2019-03-20 00:08:19,054 [BombeRLeWorld] INFO: STARTING STEP 274
+2019-03-20 00:08:19,069 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:19,105 [BombeRLeWorld] INFO: STARTING STEP 275
+2019-03-20 00:08:19,119 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:19,155 [BombeRLeWorld] INFO: STARTING STEP 276
+2019-03-20 00:08:19,174 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:19,205 [BombeRLeWorld] INFO: STARTING STEP 277
+2019-03-20 00:08:19,219 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:19,255 [BombeRLeWorld] INFO: STARTING STEP 278
+2019-03-20 00:08:19,268 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:19,269 [BombeRLeWorld] INFO: Agent <cratemate>'s bomb at (15, 10) explodes
+2019-03-20 00:08:19,305 [BombeRLeWorld] INFO: STARTING STEP 279
+2019-03-20 00:08:19,317 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:19,355 [BombeRLeWorld] INFO: STARTING STEP 280
+2019-03-20 00:08:19,407 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.04s.
+2019-03-20 00:08:19,407 [BombeRLeWorld] INFO: STARTING STEP 281
+2019-03-20 00:08:19,424 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:19,457 [BombeRLeWorld] INFO: STARTING STEP 282
+2019-03-20 00:08:19,468 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:19,507 [BombeRLeWorld] INFO: STARTING STEP 283
+2019-03-20 00:08:19,519 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:19,557 [BombeRLeWorld] INFO: STARTING STEP 284
+2019-03-20 00:08:19,570 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:19,607 [BombeRLeWorld] INFO: STARTING STEP 285
+2019-03-20 00:08:19,619 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:19,658 [BombeRLeWorld] INFO: STARTING STEP 286
+2019-03-20 00:08:19,669 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:19,714 [BombeRLeWorld] INFO: STARTING STEP 287
+2019-03-20 00:08:19,727 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:19,764 [BombeRLeWorld] INFO: STARTING STEP 288
+2019-03-20 00:08:19,777 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:19,815 [BombeRLeWorld] INFO: STARTING STEP 289
+2019-03-20 00:08:19,976 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.16s.
+2019-03-20 00:08:19,977 [BombeRLeWorld] INFO: STARTING STEP 290
+2019-03-20 00:08:19,992 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:20,027 [BombeRLeWorld] INFO: STARTING STEP 291
+2019-03-20 00:08:20,039 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:20,077 [BombeRLeWorld] INFO: STARTING STEP 292
+2019-03-20 00:08:20,095 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.02s.
+2019-03-20 00:08:20,127 [BombeRLeWorld] INFO: STARTING STEP 293
+2019-03-20 00:08:20,139 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:20,177 [BombeRLeWorld] INFO: STARTING STEP 294
+2019-03-20 00:08:20,190 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:20,227 [BombeRLeWorld] INFO: STARTING STEP 295
+2019-03-20 00:08:20,245 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.02s.
+2019-03-20 00:08:20,277 [BombeRLeWorld] INFO: STARTING STEP 296
+2019-03-20 00:08:20,287 [BombeRLeWorld] INFO: Agent <cratemate> chose action BOMB in 0.01s.
+2019-03-20 00:08:20,287 [BombeRLeWorld] INFO: Agent <cratemate> drops bomb at (15, 10)
+2019-03-20 00:08:20,327 [BombeRLeWorld] INFO: STARTING STEP 297
+2019-03-20 00:08:20,340 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:20,377 [BombeRLeWorld] INFO: STARTING STEP 298
+2019-03-20 00:08:20,396 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.02s.
+2019-03-20 00:08:20,427 [BombeRLeWorld] INFO: STARTING STEP 299
+2019-03-20 00:08:20,440 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:20,477 [BombeRLeWorld] INFO: STARTING STEP 300
+2019-03-20 00:08:20,490 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:20,527 [BombeRLeWorld] INFO: STARTING STEP 301
+2019-03-20 00:08:20,550 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.02s.
+2019-03-20 00:08:20,550 [BombeRLeWorld] INFO: Agent <cratemate>'s bomb at (15, 10) explodes
+2019-03-20 00:08:20,577 [BombeRLeWorld] INFO: STARTING STEP 302
+2019-03-20 00:08:20,590 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:20,628 [BombeRLeWorld] INFO: STARTING STEP 303
+2019-03-20 00:08:20,637 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:20,678 [BombeRLeWorld] INFO: STARTING STEP 304
+2019-03-20 00:08:20,693 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:20,728 [BombeRLeWorld] INFO: STARTING STEP 305
+2019-03-20 00:08:20,740 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:20,778 [BombeRLeWorld] INFO: STARTING STEP 306
+2019-03-20 00:08:20,791 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:20,828 [BombeRLeWorld] INFO: STARTING STEP 307
+2019-03-20 00:08:20,844 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:20,878 [BombeRLeWorld] INFO: STARTING STEP 308
+2019-03-20 00:08:20,890 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:20,928 [BombeRLeWorld] INFO: STARTING STEP 309
+2019-03-20 00:08:20,938 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:20,978 [BombeRLeWorld] INFO: STARTING STEP 310
+2019-03-20 00:08:20,995 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:21,028 [BombeRLeWorld] INFO: STARTING STEP 311
+2019-03-20 00:08:21,038 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:21,078 [BombeRLeWorld] INFO: STARTING STEP 312
+2019-03-20 00:08:21,092 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:21,128 [BombeRLeWorld] INFO: STARTING STEP 313
+2019-03-20 00:08:21,146 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:21,178 [BombeRLeWorld] INFO: STARTING STEP 314
+2019-03-20 00:08:21,192 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:21,228 [BombeRLeWorld] INFO: STARTING STEP 315
+2019-03-20 00:08:21,242 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:21,278 [BombeRLeWorld] INFO: STARTING STEP 316
+2019-03-20 00:08:21,297 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:21,328 [BombeRLeWorld] INFO: STARTING STEP 317
+2019-03-20 00:08:21,343 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:21,379 [BombeRLeWorld] INFO: STARTING STEP 318
+2019-03-20 00:08:21,390 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:21,429 [BombeRLeWorld] INFO: STARTING STEP 319
+2019-03-20 00:08:21,444 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:21,479 [BombeRLeWorld] INFO: STARTING STEP 320
+2019-03-20 00:08:21,493 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:21,529 [BombeRLeWorld] INFO: STARTING STEP 321
+2019-03-20 00:08:21,543 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:21,579 [BombeRLeWorld] INFO: STARTING STEP 322
+2019-03-20 00:08:21,601 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.02s.
+2019-03-20 00:08:21,629 [BombeRLeWorld] INFO: STARTING STEP 323
+2019-03-20 00:08:21,643 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:21,679 [BombeRLeWorld] INFO: STARTING STEP 324
+2019-03-20 00:08:21,691 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:21,729 [BombeRLeWorld] INFO: STARTING STEP 325
+2019-03-20 00:08:21,753 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.02s.
+2019-03-20 00:08:21,779 [BombeRLeWorld] INFO: STARTING STEP 326
+2019-03-20 00:08:21,793 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:21,829 [BombeRLeWorld] INFO: STARTING STEP 327
+2019-03-20 00:08:21,846 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.02s.
+2019-03-20 00:08:21,879 [BombeRLeWorld] INFO: STARTING STEP 328
+2019-03-20 00:08:21,904 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.02s.
+2019-03-20 00:08:21,929 [BombeRLeWorld] INFO: STARTING STEP 329
+2019-03-20 00:08:21,942 [BombeRLeWorld] INFO: Agent <cratemate> chose action WAIT in 0.01s.
+2019-03-20 00:08:21,979 [BombeRLeWorld] INFO: STARTING STEP 330
+2019-03-20 00:08:21,995 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:22,029 [BombeRLeWorld] INFO: STARTING STEP 331
+2019-03-20 00:08:22,042 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:22,080 [BombeRLeWorld] INFO: STARTING STEP 332
+2019-03-20 00:08:22,100 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:22,131 [BombeRLeWorld] INFO: STARTING STEP 333
+2019-03-20 00:08:22,143 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:22,181 [BombeRLeWorld] INFO: STARTING STEP 334
+2019-03-20 00:08:22,196 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:22,232 [BombeRLeWorld] INFO: STARTING STEP 335
+2019-03-20 00:08:22,251 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:22,283 [BombeRLeWorld] INFO: STARTING STEP 336
+2019-03-20 00:08:22,299 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:22,333 [BombeRLeWorld] INFO: STARTING STEP 337
+2019-03-20 00:08:22,350 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:22,383 [BombeRLeWorld] INFO: STARTING STEP 338
+2019-03-20 00:08:22,403 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:22,436 [BombeRLeWorld] INFO: STARTING STEP 339
+2019-03-20 00:08:22,455 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:22,486 [BombeRLeWorld] INFO: STARTING STEP 340
+2019-03-20 00:08:22,503 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:22,536 [BombeRLeWorld] INFO: STARTING STEP 341
+2019-03-20 00:08:22,553 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.02s.
+2019-03-20 00:08:22,588 [BombeRLeWorld] INFO: STARTING STEP 342
+2019-03-20 00:08:22,601 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:22,637 [BombeRLeWorld] INFO: STARTING STEP 343
+2019-03-20 00:08:22,652 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:22,687 [BombeRLeWorld] INFO: STARTING STEP 344
+2019-03-20 00:08:22,703 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:22,737 [BombeRLeWorld] INFO: STARTING STEP 345
+2019-03-20 00:08:22,759 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.02s.
+2019-03-20 00:08:22,787 [BombeRLeWorld] INFO: STARTING STEP 346
+2019-03-20 00:08:22,803 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:22,837 [BombeRLeWorld] INFO: STARTING STEP 347
+2019-03-20 00:08:22,855 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:22,888 [BombeRLeWorld] INFO: STARTING STEP 348
+2019-03-20 00:08:22,908 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.02s.
+2019-03-20 00:08:22,938 [BombeRLeWorld] INFO: STARTING STEP 349
+2019-03-20 00:08:22,951 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:22,988 [BombeRLeWorld] INFO: STARTING STEP 350
+2019-03-20 00:08:23,026 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.04s.
+2019-03-20 00:08:23,038 [BombeRLeWorld] INFO: STARTING STEP 351
+2019-03-20 00:08:23,062 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.02s.
+2019-03-20 00:08:23,088 [BombeRLeWorld] INFO: STARTING STEP 352
+2019-03-20 00:08:23,103 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:23,138 [BombeRLeWorld] INFO: STARTING STEP 353
+2019-03-20 00:08:23,166 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.02s.
+2019-03-20 00:08:23,188 [BombeRLeWorld] INFO: STARTING STEP 354
+2019-03-20 00:08:23,211 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:23,238 [BombeRLeWorld] INFO: STARTING STEP 355
+2019-03-20 00:08:23,251 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:23,288 [BombeRLeWorld] INFO: STARTING STEP 356
+2019-03-20 00:08:23,300 [BombeRLeWorld] INFO: Agent <cratemate> chose action BOMB in 0.01s.
+2019-03-20 00:08:23,300 [BombeRLeWorld] INFO: Agent <cratemate> drops bomb at (15, 8)
+2019-03-20 00:08:23,338 [BombeRLeWorld] INFO: STARTING STEP 357
+2019-03-20 00:08:23,352 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:23,388 [BombeRLeWorld] INFO: STARTING STEP 358
+2019-03-20 00:08:23,404 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:23,439 [BombeRLeWorld] INFO: STARTING STEP 359
+2019-03-20 00:08:23,456 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.02s.
+2019-03-20 00:08:23,489 [BombeRLeWorld] INFO: STARTING STEP 360
+2019-03-20 00:08:23,504 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:23,539 [BombeRLeWorld] INFO: STARTING STEP 361
+2019-03-20 00:08:23,554 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:23,554 [BombeRLeWorld] INFO: Agent <cratemate>'s bomb at (15, 8) explodes
+2019-03-20 00:08:23,590 [BombeRLeWorld] INFO: STARTING STEP 362
+2019-03-20 00:08:23,606 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:23,640 [BombeRLeWorld] INFO: STARTING STEP 363
+2019-03-20 00:08:23,654 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:23,690 [BombeRLeWorld] INFO: STARTING STEP 364
+2019-03-20 00:08:23,706 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.02s.
+2019-03-20 00:08:23,740 [BombeRLeWorld] INFO: STARTING STEP 365
+2019-03-20 00:08:23,754 [BombeRLeWorld] INFO: Agent <cratemate> chose action BOMB in 0.01s.
+2019-03-20 00:08:23,754 [BombeRLeWorld] INFO: Agent <cratemate> drops bomb at (14, 9)
+2019-03-20 00:08:23,790 [BombeRLeWorld] INFO: STARTING STEP 366
+2019-03-20 00:08:23,807 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.02s.
+2019-03-20 00:08:23,840 [BombeRLeWorld] INFO: STARTING STEP 367
+2019-03-20 00:08:23,856 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.02s.
+2019-03-20 00:08:23,898 [BombeRLeWorld] INFO: STARTING STEP 368
+2019-03-20 00:08:23,915 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.02s.
+2019-03-20 00:08:23,948 [BombeRLeWorld] INFO: STARTING STEP 369
+2019-03-20 00:08:23,964 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.02s.
+2019-03-20 00:08:23,998 [BombeRLeWorld] INFO: STARTING STEP 370
+2019-03-20 00:08:24,014 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.02s.
+2019-03-20 00:08:24,015 [BombeRLeWorld] INFO: Agent <cratemate>'s bomb at (14, 9) explodes
+2019-03-20 00:08:24,048 [BombeRLeWorld] INFO: STARTING STEP 371
+2019-03-20 00:08:24,064 [BombeRLeWorld] INFO: Agent <cratemate> chose action BOMB in 0.01s.
+2019-03-20 00:08:24,064 [BombeRLeWorld] INFO: Agent <cratemate> drops bomb at (15, 5)
+2019-03-20 00:08:24,098 [BombeRLeWorld] INFO: STARTING STEP 372
+2019-03-20 00:08:24,112 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:24,148 [BombeRLeWorld] INFO: STARTING STEP 373
+2019-03-20 00:08:24,162 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:24,198 [BombeRLeWorld] INFO: STARTING STEP 374
+2019-03-20 00:08:24,249 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.05s.
+2019-03-20 00:08:24,249 [BombeRLeWorld] INFO: STARTING STEP 375
+2019-03-20 00:08:24,262 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:24,299 [BombeRLeWorld] INFO: STARTING STEP 376
+2019-03-20 00:08:24,319 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.02s.
+2019-03-20 00:08:24,319 [BombeRLeWorld] INFO: Agent <cratemate>'s bomb at (15, 5) explodes
+2019-03-20 00:08:24,320 [BombeRLeWorld] INFO: Coin found at (15, 4)
+2019-03-20 00:08:24,349 [BombeRLeWorld] INFO: STARTING STEP 377
+2019-03-20 00:08:24,374 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.02s.
+2019-03-20 00:08:24,399 [BombeRLeWorld] INFO: STARTING STEP 378
+2019-03-20 00:08:24,416 [BombeRLeWorld] INFO: Agent <cratemate> chose action BOMB in 0.01s.
+2019-03-20 00:08:24,416 [BombeRLeWorld] INFO: Agent <cratemate> drops bomb at (14, 7)
+2019-03-20 00:08:24,449 [BombeRLeWorld] INFO: STARTING STEP 379
+2019-03-20 00:08:24,466 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.02s.
+2019-03-20 00:08:24,499 [BombeRLeWorld] INFO: STARTING STEP 380
+2019-03-20 00:08:24,521 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.02s.
+2019-03-20 00:08:24,550 [BombeRLeWorld] INFO: STARTING STEP 381
+2019-03-20 00:08:24,559 [BombeRLeWorld] INFO: Agent <cratemate> chose action LEFT in 0.01s.
+2019-03-20 00:08:24,600 [BombeRLeWorld] INFO: STARTING STEP 382
+2019-03-20 00:08:24,613 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:24,650 [BombeRLeWorld] INFO: STARTING STEP 383
+2019-03-20 00:08:24,671 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.02s.
+2019-03-20 00:08:24,671 [BombeRLeWorld] INFO: Agent <cratemate> picked up coin at (15, 4) and receives 1 point
+2019-03-20 00:08:24,671 [BombeRLeWorld] INFO: Agent <cratemate>'s bomb at (14, 7) explodes
+2019-03-20 00:08:24,700 [BombeRLeWorld] INFO: STARTING STEP 384
+2019-03-20 00:08:24,712 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:24,750 [BombeRLeWorld] INFO: STARTING STEP 385
+2019-03-20 00:08:24,762 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:24,800 [BombeRLeWorld] INFO: STARTING STEP 386
+2019-03-20 00:08:24,826 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.03s.
+2019-03-20 00:08:24,850 [BombeRLeWorld] INFO: STARTING STEP 387
+2019-03-20 00:08:24,863 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:24,900 [BombeRLeWorld] INFO: STARTING STEP 388
+2019-03-20 00:08:24,913 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:24,950 [BombeRLeWorld] INFO: STARTING STEP 389
+2019-03-20 00:08:24,977 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.03s.
+2019-03-20 00:08:25,000 [BombeRLeWorld] INFO: STARTING STEP 390
+2019-03-20 00:08:25,013 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:25,050 [BombeRLeWorld] INFO: STARTING STEP 391
+2019-03-20 00:08:25,063 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:25,100 [BombeRLeWorld] INFO: STARTING STEP 392
+2019-03-20 00:08:25,117 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.02s.
+2019-03-20 00:08:25,150 [BombeRLeWorld] INFO: STARTING STEP 393
+2019-03-20 00:08:25,164 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:25,200 [BombeRLeWorld] INFO: STARTING STEP 394
+2019-03-20 00:08:25,213 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:25,250 [BombeRLeWorld] INFO: STARTING STEP 395
+2019-03-20 00:08:25,269 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.02s.
+2019-03-20 00:08:25,301 [BombeRLeWorld] INFO: STARTING STEP 396
+2019-03-20 00:08:25,314 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:25,351 [BombeRLeWorld] INFO: STARTING STEP 397
+2019-03-20 00:08:25,362 [BombeRLeWorld] INFO: Agent <cratemate> chose action RIGHT in 0.01s.
+2019-03-20 00:08:25,401 [BombeRLeWorld] INFO: STARTING STEP 398
+2019-03-20 00:08:25,419 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.02s.
+2019-03-20 00:08:25,451 [BombeRLeWorld] INFO: STARTING STEP 399
+2019-03-20 00:08:25,464 [BombeRLeWorld] INFO: Agent <cratemate> chose action DOWN in 0.01s.
+2019-03-20 00:08:25,501 [BombeRLeWorld] INFO: STARTING STEP 400
+2019-03-20 00:08:25,513 [BombeRLeWorld] INFO: Agent <cratemate> chose action UP in 0.01s.
+2019-03-20 00:08:25,514 [BombeRLeWorld] INFO: Maximum number of steps reached, wrap up round
+2019-03-20 00:08:25,564 [BombeRLeWorld] INFO: WRAPPING UP ROUND #27
