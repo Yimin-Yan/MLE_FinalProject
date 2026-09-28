@@ -131,11 +131,3 @@ python analyze_game_log.py logs/game.log
 `experiments/` and writes the report figures to `figures/`.
 
 ---
-
-## Use of AI tools
-
-TODO: state honestly how AI tools were used in this branch (for example:
-drafting code, automating chains of training and evaluation runs, drafting
-and editing report text) and what was done by the author (experiment design,
-running and checking every experiment against the raw logs, analysis and
-conclusions). Keep this consistent with the statement in the report.
