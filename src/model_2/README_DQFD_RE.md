@@ -108,7 +108,7 @@ training rounds, a snapshot every 5k rounds (`dqn-model_snap*.pt`).
 
 ## Reproducing the results
 
-**Train** (from the repository root):
+**Train**:
 ```
 python main.py play --no-gui --agents <directory> rule_based_agent rule_based_agent rule_based_agent --train 1 --n-rounds <rounds>
 ```
