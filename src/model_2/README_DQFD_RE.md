@@ -1,7 +1,5 @@
 # DQFD_RE branch
 
-*Main author: Zhikai Zhang*
-
 This part of the repository contains every agent developed in the DQFD_RE
 branch of the report (Sections 4.4, 5.3 and 6.3), from the first tabular
 Q-learner to the demonstration-based DQN that took part in the mixed matches.
