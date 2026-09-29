@@ -1,0 +1,59 @@
+{
+    "by_agent": {
+        "coin_collector_agent": {
+            "bombs": 13,
+            "coins": 2,
+            "crates": 37,
+            "invalid": 4,
+            "moves": 122,
+            "rounds": 2,
+            "score": 2,
+            "steps": 139,
+            "time": 0.07845497131347656
+        },
+        "peaceful_agent": {
+            "invalid": 94,
+            "moves": 45,
+            "rounds": 2,
+            "score": 0,
+            "steps": 139,
+            "time": 0.006029844284057617
+        },
+        "rule_based_agent": {
+            "bombs": 16,
+            "coins": 3,
+            "crates": 46,
+            "invalid": 2,
+            "moves": 121,
+            "rounds": 2,
+            "score": 3,
+            "steps": 139,
+            "time": 0.06978774070739746
+        },
+        "seat_d3qn": {
+            "bombs": 18,
+            "coins": 2,
+            "crates": 41,
+            "moves": 91,
+            "rounds": 2,
+            "score": 2,
+            "steps": 139,
+            "suicides": 2,
+            "time": 0.08947277069091797
+        }
+    },
+    "by_round": {
+        "Round 01 (2026-09-20 21-40-41)": {
+            "coins": 2,
+            "kills": 0,
+            "steps": 47,
+            "suicides": 1
+        },
+        "Round 02 (2026-09-20 21-40-42)": {
+            "coins": 5,
+            "kills": 0,
+            "steps": 92,
+            "suicides": 1
+        }
+    }
+}

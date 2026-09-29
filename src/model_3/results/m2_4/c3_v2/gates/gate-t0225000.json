@@ -1,0 +1,46 @@
+{
+  "baseline": {
+    "kills_per_round": 0.3933333333333333,
+    "rounds": 150,
+    "score_per_round": 5.633333333333334,
+    "sha256": "b1ebce93408a62b7d6aeba8665253bb6e4ddf3197d470bac07701529528018f5",
+    "snapshot": "experiments/seat_d3qn/m2_4/c3_v2/checkpoints/snapshots/m2_4_c3_t0000000.pt",
+    "suicide_rate": 0.35333333333333333
+  },
+  "candidate": {
+    "kills_per_round": 0.4,
+    "rounds": 150,
+    "score_per_round": 5.726666666666667,
+    "sha256": "96e44f8cf7644524db837a05f37289dae710128cc4c2ba0c145edb78df7ca163",
+    "snapshot": "experiments/seat_d3qn/m2_4/c3_v2/checkpoints/snapshots/m2_4_c3_t0225000.pt",
+    "suicide_rate": 0.41333333333333333
+  },
+  "delta": {
+    "kills_per_round": 0.00666666666666671,
+    "score_per_round": 0.09333333333333282,
+    "suicide_rate": 0.06
+  },
+  "mode": "record_only",
+  "passed": false,
+  "protocol": {
+    "opponents": [
+      "peaceful_agent",
+      "coin_collector_agent",
+      "rule_based_agent"
+    ],
+    "rounds_per_seed": 30,
+    "seeds": [
+      7201,
+      7202,
+      7203,
+      7204,
+      7205
+    ]
+  },
+  "thresholds": {
+    "maximum_suicide_delta": 0.05,
+    "minimum_kill_delta": -0.02,
+    "minimum_score_delta": -0.1
+  },
+  "transition_count": 225000
+}

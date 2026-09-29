@@ -1,0 +1,151 @@
+{
+  "by_agent": {
+    "coin_collector_agent": {
+      "bombs": 22624,
+      "coins": 4204,
+      "crates": 66707,
+      "invalid": 5955,
+      "kills": 499,
+      "moves": 230723,
+      "rounds": 1500,
+      "score": 6699,
+      "steps": 336965,
+      "suicides": 764,
+      "time": 245.61683678627014
+    },
+    "peaceful_agent": {
+      "coins": 82,
+      "invalid": 142446,
+      "moves": 99142,
+      "rounds": 1500,
+      "score": 82,
+      "steps": 241588,
+      "time": 10.063392639160156
+    },
+    "rule_based_agent": {
+      "bombs": 29703,
+      "coins": 4140,
+      "crates": 66881,
+      "invalid": 5341,
+      "kills": 863,
+      "moves": 372775,
+      "rounds": 1500,
+      "score": 8455,
+      "steps": 409676,
+      "suicides": 466,
+      "time": 366.2613046169281
+    },
+    "seat_d3qn": {
+      "bombs": 47300,
+      "coins": 4804,
+      "crates": 46957,
+      "invalid": 1427,
+      "kills": 439,
+      "moves": 286799,
+      "rounds": 1500,
+      "score": 6999,
+      "steps": 436348,
+      "suicides": 622,
+      "time": 1174.1416764259338
+    }
+  },
+  "derived": {
+    "coin_collector_agent": {
+      "kills_per_round": 0.33266666666666667,
+      "score_per_round": 4.466,
+      "suicide_rate": 0.5093333333333333
+    },
+    "peaceful_agent": {
+      "kills_per_round": 0.0,
+      "score_per_round": 0.05466666666666667,
+      "suicide_rate": 0.0
+    },
+    "rule_based_agent": {
+      "kills_per_round": 0.5753333333333334,
+      "score_per_round": 5.636666666666667,
+      "suicide_rate": 0.31066666666666665
+    },
+    "seat_d3qn": {
+      "kills_per_round": 0.2926666666666667,
+      "score_per_round": 4.666,
+      "suicide_rate": 0.4146666666666667
+    }
+  },
+  "model_path": "agent_code/seat_d3qn/variants/m2_3/my-saved-model.pt",
+  "model_sha256": "24daa9dd18b8106c614a37ca49874abbfcd2b384efd5df246e9c4e4c4ceb9b35",
+  "protocol": {
+    "checkpoint_selected_without_test_seeds": true,
+    "opponents": [
+      "peaceful_agent",
+      "coin_collector_agent",
+      "rule_based_agent"
+    ],
+    "rounds_per_seed": 50,
+    "scenario": "classic",
+    "seeds": [
+      8101,
+      8102,
+      8103,
+      8104,
+      8105,
+      8106,
+      8107,
+      8108,
+      8109,
+      8110,
+      8111,
+      8112,
+      8113,
+      8114,
+      8115,
+      8116,
+      8117,
+      8118,
+      8119,
+      8120,
+      8121,
+      8122,
+      8123,
+      8124,
+      8125,
+      8126,
+      8127,
+      8128,
+      8129,
+      8130
+    ],
+    "total_rounds": 1500
+  },
+  "result_files": [
+    "results/m2_3/test/m2_3_seed8101_50.json",
+    "results/m2_3/test/m2_3_seed8102_50.json",
+    "results/m2_3/test/m2_3_seed8103_50.json",
+    "results/m2_3/test/m2_3_seed8104_50.json",
+    "results/m2_3/test/m2_3_seed8105_50.json",
+    "results/m2_3/test/m2_3_seed8106_50.json",
+    "results/m2_3/test/m2_3_seed8107_50.json",
+    "results/m2_3/test/m2_3_seed8108_50.json",
+    "results/m2_3/test/m2_3_seed8109_50.json",
+    "results/m2_3/test/m2_3_seed8110_50.json",
+    "results/m2_3/test/m2_3_seed8111_50.json",
+    "results/m2_3/test/m2_3_seed8112_50.json",
+    "results/m2_3/test/m2_3_seed8113_50.json",
+    "results/m2_3/test/m2_3_seed8114_50.json",
+    "results/m2_3/test/m2_3_seed8115_50.json",
+    "results/m2_3/test/m2_3_seed8116_50.json",
+    "results/m2_3/test/m2_3_seed8117_50.json",
+    "results/m2_3/test/m2_3_seed8118_50.json",
+    "results/m2_3/test/m2_3_seed8119_50.json",
+    "results/m2_3/test/m2_3_seed8120_50.json",
+    "results/m2_3/test/m2_3_seed8121_50.json",
+    "results/m2_3/test/m2_3_seed8122_50.json",
+    "results/m2_3/test/m2_3_seed8123_50.json",
+    "results/m2_3/test/m2_3_seed8124_50.json",
+    "results/m2_3/test/m2_3_seed8125_50.json",
+    "results/m2_3/test/m2_3_seed8126_50.json",
+    "results/m2_3/test/m2_3_seed8127_50.json",
+    "results/m2_3/test/m2_3_seed8128_50.json",
+    "results/m2_3/test/m2_3_seed8129_50.json",
+    "results/m2_3/test/m2_3_seed8130_50.json"
+  ]
+}

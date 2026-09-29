@@ -1,0 +1,175 @@
+{
+  "by_agent": {
+    "coin_collector_agent": {
+      "bombs": 21076,
+      "coins": 3857,
+      "crates": 62221,
+      "invalid": 5662,
+      "kills": 489,
+      "moves": 216969,
+      "rounds": 1500,
+      "score": 6302,
+      "steps": 340860,
+      "suicides": 746,
+      "time": 230.18348813056946
+    },
+    "peaceful_agent": {
+      "coins": 59,
+      "invalid": 138063,
+      "moves": 97424,
+      "rounds": 1500,
+      "score": 59,
+      "steps": 235487,
+      "time": 9.505579710006714
+    },
+    "rule_based_agent": {
+      "bombs": 28235,
+      "coins": 3845,
+      "crates": 61611,
+      "invalid": 6662,
+      "kills": 796,
+      "moves": 355487,
+      "rounds": 1500,
+      "score": 7825,
+      "steps": 391732,
+      "suicides": 543,
+      "time": 348.83323884010315
+    },
+    "seat_d3qn": {
+      "bombs": 34257,
+      "coins": 5570,
+      "crates": 58853,
+      "invalid": 2457,
+      "kills": 527,
+      "moves": 301340,
+      "rounds": 1500,
+      "score": 8205,
+      "steps": 428718,
+      "suicides": 530,
+      "time": 444.1786382198334
+    }
+  },
+  "confidence_intervals": {
+    "rule_based_agent": {
+      "kills": {
+        "ci95": [
+          0.4993333333333333,
+          0.5606666666666666
+        ],
+        "mean": 0.5306666666666666
+      },
+      "score": {
+        "ci95": [
+          5.014,
+          5.404683333333335
+        ],
+        "mean": 5.216666666666667
+      },
+      "suicides": {
+        "ci95": [
+          0.34266666666666673,
+          0.38066666666666665
+        ],
+        "mean": 0.36200000000000004
+      }
+    },
+    "seat_d3qn": {
+      "kills": {
+        "ci95": [
+          0.31933333333333336,
+          0.38466666666666666
+        ],
+        "mean": 0.35133333333333333
+      },
+      "score": {
+        "ci95": [
+          5.262649999999999,
+          5.671333333333334
+        ],
+        "mean": 5.47
+      },
+      "suicides": {
+        "ci95": [
+          0.33466666666666656,
+          0.37533333333333335
+        ],
+        "mean": 0.35333333333333333
+      }
+    },
+    "seat_minus_rule_score": {
+      "ci95": [
+        -0.09666666666666655,
+        0.6213333333333331
+      ],
+      "mean": 0.25333333333333347
+    }
+  },
+  "derived": {
+    "coin_collector_agent": {
+      "kills_per_round": 0.326,
+      "score_per_round": 4.201333333333333,
+      "suicide_rate": 0.49733333333333335
+    },
+    "peaceful_agent": {
+      "kills_per_round": 0.0,
+      "score_per_round": 0.03933333333333333,
+      "suicide_rate": 0.0
+    },
+    "rule_based_agent": {
+      "kills_per_round": 0.5306666666666666,
+      "score_per_round": 5.216666666666667,
+      "suicide_rate": 0.362
+    },
+    "seat_d3qn": {
+      "kills_per_round": 0.35133333333333333,
+      "score_per_round": 5.47,
+      "suicide_rate": 0.35333333333333333
+    }
+  },
+  "model_path": "agent_code/seat_d3qn/variants/m2_4/c3_v2/my-saved-model.pt",
+  "model_sha256": "96e44f8cf7644524db837a05f37289dae710128cc4c2ba0c145edb78df7ca163",
+  "protocol": {
+    "opponents": [
+      "peaceful_agent",
+      "coin_collector_agent",
+      "rule_based_agent"
+    ],
+    "rounds_per_seed": 100,
+    "scenario": "classic",
+    "seeds": [
+      10001,
+      10002,
+      10003,
+      10004,
+      10005,
+      10006,
+      10007,
+      10008,
+      10009,
+      10010,
+      10011,
+      10012,
+      10013,
+      10014,
+      10015
+    ],
+    "total_rounds": 1500
+  },
+  "result_files": [
+    "results/m2_4/c3_v2/test/m2_4_c3_seed10001_100.json",
+    "results/m2_4/c3_v2/test/m2_4_c3_seed10002_100.json",
+    "results/m2_4/c3_v2/test/m2_4_c3_seed10003_100.json",
+    "results/m2_4/c3_v2/test/m2_4_c3_seed10004_100.json",
+    "results/m2_4/c3_v2/test/m2_4_c3_seed10005_100.json",
+    "results/m2_4/c3_v2/test/m2_4_c3_seed10006_100.json",
+    "results/m2_4/c3_v2/test/m2_4_c3_seed10007_100.json",
+    "results/m2_4/c3_v2/test/m2_4_c3_seed10008_100.json",
+    "results/m2_4/c3_v2/test/m2_4_c3_seed10009_100.json",
+    "results/m2_4/c3_v2/test/m2_4_c3_seed10010_100.json",
+    "results/m2_4/c3_v2/test/m2_4_c3_seed10011_100.json",
+    "results/m2_4/c3_v2/test/m2_4_c3_seed10012_100.json",
+    "results/m2_4/c3_v2/test/m2_4_c3_seed10013_100.json",
+    "results/m2_4/c3_v2/test/m2_4_c3_seed10014_100.json",
+    "results/m2_4/c3_v2/test/m2_4_c3_seed10015_100.json"
+  ]
+}

@@ -1,0 +1,483 @@
+{
+  "best_snapshot": {
+    "mean_official_score": 1.4766666666666666,
+    "runs": [
+      {
+        "coins": 144,
+        "invalid": 62,
+        "kills": 3,
+        "result_file": "results/m2_1/validation/m2_1_t0500000_seed1101.json",
+        "rounds": 100,
+        "score": 159,
+        "seed": 1101,
+        "steps": 21211,
+        "suicides": 22
+      },
+      {
+        "coins": 131,
+        "invalid": 61,
+        "kills": 1,
+        "result_file": "results/m2_1/validation/m2_1_t0500000_seed2202.json",
+        "rounds": 100,
+        "score": 136,
+        "seed": 2202,
+        "steps": 18922,
+        "suicides": 18
+      },
+      {
+        "coins": 133,
+        "invalid": 92,
+        "kills": 3,
+        "result_file": "results/m2_1/validation/m2_1_t0500000_seed3303.json",
+        "rounds": 100,
+        "score": 148,
+        "seed": 3303,
+        "steps": 22167,
+        "suicides": 19
+      }
+    ],
+    "snapshot": "experiments/seat_d3qn/m2_1/checkpoints/snapshots/m2_1_t0500000.pt",
+    "suicide_rate": 0.19666666666666666,
+    "transition_count": 500000,
+    "validation_rounds": 300
+  },
+  "candidates": [
+    {
+      "mean_official_score": 0.13666666666666666,
+      "runs": [
+        {
+          "coins": 20,
+          "invalid": 38,
+          "kills": 1,
+          "result_file": "results/m2_1/validation/m2_1_t0050000_seed1101.json",
+          "rounds": 100,
+          "score": 25,
+          "seed": 1101,
+          "steps": 20950,
+          "suicides": 15
+        },
+        {
+          "coins": 10,
+          "invalid": 29,
+          "kills": 0,
+          "result_file": "results/m2_1/validation/m2_1_t0050000_seed2202.json",
+          "rounds": 100,
+          "score": 10,
+          "seed": 2202,
+          "steps": 17221,
+          "suicides": 13
+        },
+        {
+          "coins": 6,
+          "invalid": 24,
+          "kills": 0,
+          "result_file": "results/m2_1/validation/m2_1_t0050000_seed3303.json",
+          "rounds": 100,
+          "score": 6,
+          "seed": 3303,
+          "steps": 18457,
+          "suicides": 10
+        }
+      ],
+      "snapshot": "experiments/seat_d3qn/m2_1/checkpoints/snapshots/m2_1_t0050000.pt",
+      "suicide_rate": 0.12666666666666668,
+      "transition_count": 50000,
+      "validation_rounds": 300
+    },
+    {
+      "mean_official_score": 0.18,
+      "runs": [
+        {
+          "coins": 18,
+          "invalid": 15,
+          "kills": 0,
+          "result_file": "results/m2_1/validation/m2_1_t0100000_seed1101.json",
+          "rounds": 100,
+          "score": 18,
+          "seed": 1101,
+          "steps": 17026,
+          "suicides": 6
+        },
+        {
+          "coins": 14,
+          "invalid": 8,
+          "kills": 0,
+          "result_file": "results/m2_1/validation/m2_1_t0100000_seed2202.json",
+          "rounds": 100,
+          "score": 14,
+          "seed": 2202,
+          "steps": 17728,
+          "suicides": 10
+        },
+        {
+          "coins": 12,
+          "invalid": 16,
+          "kills": 2,
+          "result_file": "results/m2_1/validation/m2_1_t0100000_seed3303.json",
+          "rounds": 100,
+          "score": 22,
+          "seed": 3303,
+          "steps": 18622,
+          "suicides": 8
+        }
+      ],
+      "snapshot": "experiments/seat_d3qn/m2_1/checkpoints/snapshots/m2_1_t0100000.pt",
+      "suicide_rate": 0.08,
+      "transition_count": 100000,
+      "validation_rounds": 300
+    },
+    {
+      "mean_official_score": 0.18666666666666668,
+      "runs": [
+        {
+          "coins": 14,
+          "invalid": 9,
+          "kills": 0,
+          "result_file": "results/m2_1/validation/m2_1_t0150000_seed1101.json",
+          "rounds": 100,
+          "score": 14,
+          "seed": 1101,
+          "steps": 17724,
+          "suicides": 3
+        },
+        {
+          "coins": 20,
+          "invalid": 13,
+          "kills": 0,
+          "result_file": "results/m2_1/validation/m2_1_t0150000_seed2202.json",
+          "rounds": 100,
+          "score": 20,
+          "seed": 2202,
+          "steps": 16575,
+          "suicides": 8
+        },
+        {
+          "coins": 17,
+          "invalid": 10,
+          "kills": 1,
+          "result_file": "results/m2_1/validation/m2_1_t0150000_seed3303.json",
+          "rounds": 100,
+          "score": 22,
+          "seed": 3303,
+          "steps": 18090,
+          "suicides": 5
+        }
+      ],
+      "snapshot": "experiments/seat_d3qn/m2_1/checkpoints/snapshots/m2_1_t0150000.pt",
+      "suicide_rate": 0.05333333333333334,
+      "transition_count": 150000,
+      "validation_rounds": 300
+    },
+    {
+      "mean_official_score": 0.5833333333333334,
+      "runs": [
+        {
+          "coins": 55,
+          "invalid": 17,
+          "kills": 0,
+          "result_file": "results/m2_1/validation/m2_1_t0200000_seed1101.json",
+          "rounds": 100,
+          "score": 55,
+          "seed": 1101,
+          "steps": 17665,
+          "suicides": 23
+        },
+        {
+          "coins": 60,
+          "invalid": 13,
+          "kills": 0,
+          "result_file": "results/m2_1/validation/m2_1_t0200000_seed2202.json",
+          "rounds": 100,
+          "score": 60,
+          "seed": 2202,
+          "steps": 16098,
+          "suicides": 21
+        },
+        {
+          "coins": 60,
+          "invalid": 20,
+          "kills": 0,
+          "result_file": "results/m2_1/validation/m2_1_t0200000_seed3303.json",
+          "rounds": 100,
+          "score": 60,
+          "seed": 3303,
+          "steps": 15644,
+          "suicides": 18
+        }
+      ],
+      "snapshot": "experiments/seat_d3qn/m2_1/checkpoints/snapshots/m2_1_t0200000.pt",
+      "suicide_rate": 0.20666666666666667,
+      "transition_count": 200000,
+      "validation_rounds": 300
+    },
+    {
+      "mean_official_score": 0.8466666666666667,
+      "runs": [
+        {
+          "coins": 76,
+          "invalid": 17,
+          "kills": 0,
+          "result_file": "results/m2_1/validation/m2_1_t0250000_seed1101.json",
+          "rounds": 100,
+          "score": 76,
+          "seed": 1101,
+          "steps": 13351,
+          "suicides": 48
+        },
+        {
+          "coins": 76,
+          "invalid": 10,
+          "kills": 0,
+          "result_file": "results/m2_1/validation/m2_1_t0250000_seed2202.json",
+          "rounds": 100,
+          "score": 76,
+          "seed": 2202,
+          "steps": 13089,
+          "suicides": 48
+        },
+        {
+          "coins": 92,
+          "invalid": 9,
+          "kills": 2,
+          "result_file": "results/m2_1/validation/m2_1_t0250000_seed3303.json",
+          "rounds": 100,
+          "score": 102,
+          "seed": 3303,
+          "steps": 11656,
+          "suicides": 50
+        }
+      ],
+      "snapshot": "experiments/seat_d3qn/m2_1/checkpoints/snapshots/m2_1_t0250000.pt",
+      "suicide_rate": 0.4866666666666667,
+      "transition_count": 250000,
+      "validation_rounds": 300
+    },
+    {
+      "mean_official_score": 0.9666666666666667,
+      "runs": [
+        {
+          "coins": 105,
+          "invalid": 32,
+          "kills": 0,
+          "result_file": "results/m2_1/validation/m2_1_t0300000_seed1101.json",
+          "rounds": 100,
+          "score": 105,
+          "seed": 1101,
+          "steps": 16117,
+          "suicides": 38
+        },
+        {
+          "coins": 89,
+          "invalid": 47,
+          "kills": 0,
+          "result_file": "results/m2_1/validation/m2_1_t0300000_seed2202.json",
+          "rounds": 100,
+          "score": 89,
+          "seed": 2202,
+          "steps": 15794,
+          "suicides": 35
+        },
+        {
+          "coins": 91,
+          "invalid": 41,
+          "kills": 1,
+          "result_file": "results/m2_1/validation/m2_1_t0300000_seed3303.json",
+          "rounds": 100,
+          "score": 96,
+          "seed": 3303,
+          "steps": 16753,
+          "suicides": 28
+        }
+      ],
+      "snapshot": "experiments/seat_d3qn/m2_1/checkpoints/snapshots/m2_1_t0300000.pt",
+      "suicide_rate": 0.33666666666666667,
+      "transition_count": 300000,
+      "validation_rounds": 300
+    },
+    {
+      "mean_official_score": 1.0866666666666667,
+      "runs": [
+        {
+          "coins": 112,
+          "invalid": 69,
+          "kills": 0,
+          "result_file": "results/m2_1/validation/m2_1_t0350000_seed1101.json",
+          "rounds": 100,
+          "score": 112,
+          "seed": 1101,
+          "steps": 17485,
+          "suicides": 18
+        },
+        {
+          "coins": 102,
+          "invalid": 61,
+          "kills": 0,
+          "result_file": "results/m2_1/validation/m2_1_t0350000_seed2202.json",
+          "rounds": 100,
+          "score": 102,
+          "seed": 2202,
+          "steps": 18020,
+          "suicides": 23
+        },
+        {
+          "coins": 112,
+          "invalid": 44,
+          "kills": 0,
+          "result_file": "results/m2_1/validation/m2_1_t0350000_seed3303.json",
+          "rounds": 100,
+          "score": 112,
+          "seed": 3303,
+          "steps": 16986,
+          "suicides": 19
+        }
+      ],
+      "snapshot": "experiments/seat_d3qn/m2_1/checkpoints/snapshots/m2_1_t0350000.pt",
+      "suicide_rate": 0.2,
+      "transition_count": 350000,
+      "validation_rounds": 300
+    },
+    {
+      "mean_official_score": 1.1,
+      "runs": [
+        {
+          "coins": 104,
+          "invalid": 44,
+          "kills": 1,
+          "result_file": "results/m2_1/validation/m2_1_t0400000_seed1101.json",
+          "rounds": 100,
+          "score": 109,
+          "seed": 1101,
+          "steps": 19531,
+          "suicides": 10
+        },
+        {
+          "coins": 113,
+          "invalid": 69,
+          "kills": 1,
+          "result_file": "results/m2_1/validation/m2_1_t0400000_seed2202.json",
+          "rounds": 100,
+          "score": 118,
+          "seed": 2202,
+          "steps": 22088,
+          "suicides": 9
+        },
+        {
+          "coins": 103,
+          "invalid": 48,
+          "kills": 0,
+          "result_file": "results/m2_1/validation/m2_1_t0400000_seed3303.json",
+          "rounds": 100,
+          "score": 103,
+          "seed": 3303,
+          "steps": 21525,
+          "suicides": 12
+        }
+      ],
+      "snapshot": "experiments/seat_d3qn/m2_1/checkpoints/snapshots/m2_1_t0400000.pt",
+      "suicide_rate": 0.10333333333333333,
+      "transition_count": 400000,
+      "validation_rounds": 300
+    },
+    {
+      "mean_official_score": 1.27,
+      "runs": [
+        {
+          "coins": 139,
+          "invalid": 79,
+          "kills": 1,
+          "result_file": "results/m2_1/validation/m2_1_t0450000_seed1101.json",
+          "rounds": 100,
+          "score": 144,
+          "seed": 1101,
+          "steps": 22987,
+          "suicides": 9
+        },
+        {
+          "coins": 109,
+          "invalid": 68,
+          "kills": 0,
+          "result_file": "results/m2_1/validation/m2_1_t0450000_seed2202.json",
+          "rounds": 100,
+          "score": 109,
+          "seed": 2202,
+          "steps": 25544,
+          "suicides": 7
+        },
+        {
+          "coins": 123,
+          "invalid": 65,
+          "kills": 1,
+          "result_file": "results/m2_1/validation/m2_1_t0450000_seed3303.json",
+          "rounds": 100,
+          "score": 128,
+          "seed": 3303,
+          "steps": 26086,
+          "suicides": 5
+        }
+      ],
+      "snapshot": "experiments/seat_d3qn/m2_1/checkpoints/snapshots/m2_1_t0450000.pt",
+      "suicide_rate": 0.07,
+      "transition_count": 450000,
+      "validation_rounds": 300
+    },
+    {
+      "mean_official_score": 1.4766666666666666,
+      "runs": [
+        {
+          "coins": 144,
+          "invalid": 62,
+          "kills": 3,
+          "result_file": "results/m2_1/validation/m2_1_t0500000_seed1101.json",
+          "rounds": 100,
+          "score": 159,
+          "seed": 1101,
+          "steps": 21211,
+          "suicides": 22
+        },
+        {
+          "coins": 131,
+          "invalid": 61,
+          "kills": 1,
+          "result_file": "results/m2_1/validation/m2_1_t0500000_seed2202.json",
+          "rounds": 100,
+          "score": 136,
+          "seed": 2202,
+          "steps": 18922,
+          "suicides": 18
+        },
+        {
+          "coins": 133,
+          "invalid": 92,
+          "kills": 3,
+          "result_file": "results/m2_1/validation/m2_1_t0500000_seed3303.json",
+          "rounds": 100,
+          "score": 148,
+          "seed": 3303,
+          "steps": 22167,
+          "suicides": 19
+        }
+      ],
+      "snapshot": "experiments/seat_d3qn/m2_1/checkpoints/snapshots/m2_1_t0500000.pt",
+      "suicide_rate": 0.19666666666666666,
+      "transition_count": 500000,
+      "validation_rounds": 300
+    }
+  ],
+  "opponents": [
+    "peaceful_agent",
+    "coin_collector_agent",
+    "rule_based_agent"
+  ],
+  "rounds_per_seed": 100,
+  "scenario": "classic",
+  "selection_metric": "mean_official_score",
+  "tie_breakers": [
+    "lower_suicide_rate",
+    "later_transition"
+  ],
+  "validation_seeds": [
+    1101,
+    2202,
+    3303
+  ]
+}

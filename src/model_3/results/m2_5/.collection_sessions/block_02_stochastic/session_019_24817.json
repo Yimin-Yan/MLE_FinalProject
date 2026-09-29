@@ -1,0 +1,84 @@
+{
+    "by_agent": {
+        "coin_collector_agent": {
+            "bombs": 33,
+            "coins": 9,
+            "crates": 97,
+            "invalid": 5,
+            "moves": 328,
+            "rounds": 5,
+            "score": 9,
+            "steps": 611,
+            "time": 0.36440253257751465
+        },
+        "m2_4_noisy_agent": {
+            "bombs": 29,
+            "coins": 3,
+            "crates": 59,
+            "invalid": 1,
+            "moves": 163,
+            "rounds": 5,
+            "score": 3,
+            "steps": 244,
+            "suicides": 4,
+            "time": 0.17405390739440918
+        },
+        "rule_based_agent": {
+            "bombs": 32,
+            "coins": 5,
+            "crates": 105,
+            "invalid": 8,
+            "moves": 245,
+            "rounds": 5,
+            "score": 5,
+            "steps": 285,
+            "suicides": 2,
+            "time": 0.1522657871246338
+        },
+        "seat_d3qn": {
+            "bombs": 71,
+            "coins": 9,
+            "crates": 116,
+            "invalid": 2,
+            "kills": 1,
+            "moves": 421,
+            "rounds": 5,
+            "score": 14,
+            "steps": 742,
+            "suicides": 4,
+            "time": 0.7080469131469727
+        }
+    },
+    "by_round": {
+        "Round 01 (2026-09-20 21-38-08)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 400,
+            "suicides": 2
+        },
+        "Round 02 (2026-09-20 21-38-09)": {
+            "coins": 1,
+            "kills": 0,
+            "steps": 13,
+            "suicides": 1
+        },
+        "Round 03 (2026-09-20 21-38-10)": {
+            "coins": 1,
+            "kills": 0,
+            "steps": 20,
+            "suicides": 2
+        },
+        "Round 04 (2026-09-20 21-38-10)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 225,
+            "suicides": 3
+        },
+        "Round 05 (2026-09-20 21-38-11)": {
+            "coins": 6,
+            "kills": 0,
+            "steps": 84,
+            "suicides": 2
+        }
+    }
+}

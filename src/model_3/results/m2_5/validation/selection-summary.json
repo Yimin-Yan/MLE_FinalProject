@@ -1,0 +1,110 @@
+{
+  "domain_score_delta": {
+    "heldout_noisy": -0.04999999999999982,
+    "official": 0.10599999999999987,
+    "pressure": -0.01600000000000046
+  },
+  "guardrails": {
+    "aggregate_score_nonnegative": true,
+    "at_least_two_domains_nonnegative": false,
+    "coins_not_lost": true,
+    "kills_not_lost": true,
+    "official_score_nonnegative": true,
+    "suicide_not_increased": true,
+    "worst_domain_above_minus_0_15": true
+  },
+  "paired_bootstrap_95_ci": {
+    "bombs": [
+      -0.21933333333333352,
+      0.8626666666666662
+    ],
+    "coins": [
+      -0.0926666666666667,
+      0.11999999999999995
+    ],
+    "crates": [
+      -0.0153500000000007,
+      1.0759999999999992
+    ],
+    "invalid": [
+      -0.07800000000000004,
+      0.11266666666666666
+    ],
+    "kills": [
+      -0.02666666666666667,
+      0.02466666666666667
+    ],
+    "score": [
+      -0.14933333333333335,
+      0.17933333333333337
+    ],
+    "steps": [
+      -1.4346666666666583,
+      14.333333333333337
+    ],
+    "suicides": [
+      -0.055333333333333325,
+      0.005999999999999994
+    ]
+  },
+  "passed": false,
+  "protocol": {
+    "domains": {
+      "heldout_noisy": [
+        "m2_4_noisy_agent",
+        "peaceful_agent",
+        "rule_based_agent"
+      ],
+      "official": [
+        "peaceful_agent",
+        "coin_collector_agent",
+        "rule_based_agent"
+      ],
+      "pressure": [
+        "rule_based_agent",
+        "rule_based_agent",
+        "coin_collector_agent"
+      ]
+    },
+    "risk_checkpoint": "experiments/seat_d3qn/m2_5/checkpoints/m2_5_risk_t0250000.pt",
+    "rounds_per_seed_domain": 100,
+    "seeds": [
+      56001,
+      56002,
+      56003,
+      56004,
+      56005
+    ],
+    "source_checkpoint": "96e44f8cf7644524db837a05f37289dae710128cc4c2ba0c145edb78df7ca163"
+  },
+  "recovery": {
+    "bombs_per_round": 23.89533333333333,
+    "coins_per_round": 3.8120000000000003,
+    "crates_per_round": 40.37666666666667,
+    "invalid_per_round": 1.6366666666666663,
+    "kills_per_round": 0.2873333333333334,
+    "score_per_round": 5.248666666666667,
+    "steps_per_round": 286.92333333333335,
+    "suicides_per_round": 0.35933333333333334
+  },
+  "recovery_minus_source": {
+    "bombs": 0.32666666666666655,
+    "coins": 0.010000000000000054,
+    "crates": 0.5033333333333329,
+    "invalid": 0.020666666666666656,
+    "kills": 0.0006666666666666636,
+    "score": 0.013333333333333345,
+    "steps": 6.577333333333335,
+    "suicides": -0.02399999999999999
+  },
+  "source": {
+    "bombs_per_round": 23.56866666666667,
+    "coins_per_round": 3.802,
+    "crates_per_round": 39.873333333333335,
+    "invalid_per_round": 1.616,
+    "kills_per_round": 0.2866666666666667,
+    "score_per_round": 5.235333333333333,
+    "steps_per_round": 280.34600000000006,
+    "suicides_per_round": 0.38333333333333336
+  }
+}

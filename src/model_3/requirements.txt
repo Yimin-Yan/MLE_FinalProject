@@ -1,0 +1,5 @@
+# Install into a virtual environment; PyTorch runs on CPU for evaluation.
+numpy
+torch
+pygame
+tqdm

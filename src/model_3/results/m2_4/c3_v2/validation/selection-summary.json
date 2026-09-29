@@ -1,0 +1,1063 @@
+{
+  "best_snapshot": {
+    "kills_per_round": 0.35,
+    "mean_official_score": 5.49,
+    "runs": [
+      {
+        "coins": 383,
+        "invalid": 149,
+        "kills": 38,
+        "rounds": 100,
+        "score": 573,
+        "steps": 29090,
+        "suicides": 35
+      },
+      {
+        "coins": 378,
+        "invalid": 169,
+        "kills": 38,
+        "rounds": 100,
+        "score": 568,
+        "steps": 29603,
+        "suicides": 37
+      },
+      {
+        "coins": 383,
+        "invalid": 158,
+        "kills": 36,
+        "rounds": 100,
+        "score": 563,
+        "steps": 27584,
+        "suicides": 37
+      },
+      {
+        "coins": 350,
+        "invalid": 159,
+        "kills": 40,
+        "rounds": 100,
+        "score": 550,
+        "steps": 29446,
+        "suicides": 35
+      },
+      {
+        "coins": 358,
+        "invalid": 215,
+        "kills": 27,
+        "rounds": 100,
+        "score": 493,
+        "steps": 27298,
+        "suicides": 38
+      },
+      {
+        "coins": 392,
+        "invalid": 200,
+        "kills": 31,
+        "rounds": 100,
+        "score": 547,
+        "steps": 30381,
+        "suicides": 30
+      }
+    ],
+    "snapshot": "experiments/seat_d3qn/m2_4/c3_v2/checkpoints/snapshots/m2_4_c3_t0225000.pt",
+    "suicide_rate": 0.35333333333333333,
+    "transition_count": 225000,
+    "validation_rounds": 600
+  },
+  "branch": "c3_v2",
+  "candidates": [
+    {
+      "kills_per_round": 0.3433333333333333,
+      "mean_official_score": 5.486666666666666,
+      "runs": [
+        {
+          "coins": 404,
+          "invalid": 156,
+          "kills": 39,
+          "rounds": 100,
+          "score": 599,
+          "steps": 30877,
+          "suicides": 33
+        },
+        {
+          "coins": 354,
+          "invalid": 150,
+          "kills": 27,
+          "rounds": 100,
+          "score": 489,
+          "steps": 26768,
+          "suicides": 38
+        },
+        {
+          "coins": 373,
+          "invalid": 141,
+          "kills": 37,
+          "rounds": 100,
+          "score": 558,
+          "steps": 27445,
+          "suicides": 36
+        }
+      ],
+      "snapshot": "experiments/seat_d3qn/m2_4/c3_v2/checkpoints/snapshots/m2_4_c3_t0000000.pt",
+      "suicide_rate": 0.3566666666666667,
+      "transition_count": 0,
+      "validation_rounds": 300
+    },
+    {
+      "kills_per_round": 0.36,
+      "mean_official_score": 5.273333333333333,
+      "runs": [
+        {
+          "coins": 323,
+          "invalid": 143,
+          "kills": 40,
+          "rounds": 100,
+          "score": 523,
+          "steps": 26529,
+          "suicides": 46
+        },
+        {
+          "coins": 358,
+          "invalid": 160,
+          "kills": 38,
+          "rounds": 100,
+          "score": 548,
+          "steps": 28970,
+          "suicides": 37
+        },
+        {
+          "coins": 361,
+          "invalid": 185,
+          "kills": 30,
+          "rounds": 100,
+          "score": 511,
+          "steps": 28268,
+          "suicides": 34
+        }
+      ],
+      "snapshot": "experiments/seat_d3qn/m2_4/c3_v2/checkpoints/snapshots/m2_4_c3_t0025000.pt",
+      "suicide_rate": 0.39,
+      "transition_count": 25000,
+      "validation_rounds": 300
+    },
+    {
+      "kills_per_round": 0.31666666666666665,
+      "mean_official_score": 5.43,
+      "runs": [
+        {
+          "coins": 380,
+          "invalid": 175,
+          "kills": 37,
+          "rounds": 100,
+          "score": 565,
+          "steps": 29699,
+          "suicides": 33
+        },
+        {
+          "coins": 371,
+          "invalid": 137,
+          "kills": 28,
+          "rounds": 100,
+          "score": 511,
+          "steps": 28029,
+          "suicides": 37
+        },
+        {
+          "coins": 403,
+          "invalid": 215,
+          "kills": 30,
+          "rounds": 100,
+          "score": 553,
+          "steps": 29031,
+          "suicides": 37
+        }
+      ],
+      "snapshot": "experiments/seat_d3qn/m2_4/c3_v2/checkpoints/snapshots/m2_4_c3_t0050000.pt",
+      "suicide_rate": 0.3566666666666667,
+      "transition_count": 50000,
+      "validation_rounds": 300
+    },
+    {
+      "kills_per_round": 0.3566666666666667,
+      "mean_official_score": 5.473333333333334,
+      "runs": [
+        {
+          "coins": 369,
+          "invalid": 171,
+          "kills": 36,
+          "rounds": 100,
+          "score": 549,
+          "steps": 27390,
+          "suicides": 38
+        },
+        {
+          "coins": 365,
+          "invalid": 144,
+          "kills": 29,
+          "rounds": 100,
+          "score": 510,
+          "steps": 27231,
+          "suicides": 40
+        },
+        {
+          "coins": 373,
+          "invalid": 180,
+          "kills": 42,
+          "rounds": 100,
+          "score": 583,
+          "steps": 27524,
+          "suicides": 39
+        }
+      ],
+      "snapshot": "experiments/seat_d3qn/m2_4/c3_v2/checkpoints/snapshots/m2_4_c3_t0075000.pt",
+      "suicide_rate": 0.39,
+      "transition_count": 75000,
+      "validation_rounds": 300
+    },
+    {
+      "kills_per_round": 0.30666666666666664,
+      "mean_official_score": 5.213333333333333,
+      "runs": [
+        {
+          "coins": 382,
+          "invalid": 167,
+          "kills": 28,
+          "rounds": 100,
+          "score": 522,
+          "steps": 29484,
+          "suicides": 34
+        },
+        {
+          "coins": 367,
+          "invalid": 159,
+          "kills": 33,
+          "rounds": 100,
+          "score": 532,
+          "steps": 27174,
+          "suicides": 35
+        },
+        {
+          "coins": 355,
+          "invalid": 169,
+          "kills": 31,
+          "rounds": 100,
+          "score": 510,
+          "steps": 27874,
+          "suicides": 36
+        }
+      ],
+      "snapshot": "experiments/seat_d3qn/m2_4/c3_v2/checkpoints/snapshots/m2_4_c3_t0100000.pt",
+      "suicide_rate": 0.35,
+      "transition_count": 100000,
+      "validation_rounds": 300
+    },
+    {
+      "kills_per_round": 0.37,
+      "mean_official_score": 5.58,
+      "runs": [
+        {
+          "coins": 377,
+          "invalid": 176,
+          "kills": 37,
+          "rounds": 100,
+          "score": 562,
+          "steps": 30166,
+          "suicides": 31
+        },
+        {
+          "coins": 364,
+          "invalid": 140,
+          "kills": 35,
+          "rounds": 100,
+          "score": 539,
+          "steps": 29270,
+          "suicides": 34
+        },
+        {
+          "coins": 378,
+          "invalid": 162,
+          "kills": 39,
+          "rounds": 100,
+          "score": 573,
+          "steps": 30276,
+          "suicides": 32
+        }
+      ],
+      "snapshot": "experiments/seat_d3qn/m2_4/c3_v2/checkpoints/snapshots/m2_4_c3_t0125000.pt",
+      "suicide_rate": 0.3233333333333333,
+      "transition_count": 125000,
+      "validation_rounds": 300
+    },
+    {
+      "kills_per_round": 0.35,
+      "mean_official_score": 5.566666666666666,
+      "runs": [
+        {
+          "coins": 385,
+          "invalid": 199,
+          "kills": 37,
+          "rounds": 100,
+          "score": 570,
+          "steps": 29054,
+          "suicides": 37
+        },
+        {
+          "coins": 369,
+          "invalid": 167,
+          "kills": 36,
+          "rounds": 100,
+          "score": 549,
+          "steps": 29446,
+          "suicides": 27
+        },
+        {
+          "coins": 391,
+          "invalid": 162,
+          "kills": 32,
+          "rounds": 100,
+          "score": 551,
+          "steps": 29669,
+          "suicides": 35
+        }
+      ],
+      "snapshot": "experiments/seat_d3qn/m2_4/c3_v2/checkpoints/snapshots/m2_4_c3_t0150000.pt",
+      "suicide_rate": 0.33,
+      "transition_count": 150000,
+      "validation_rounds": 300
+    },
+    {
+      "kills_per_round": 0.33666666666666667,
+      "mean_official_score": 5.423333333333333,
+      "runs": [
+        {
+          "coins": 358,
+          "invalid": 199,
+          "kills": 32,
+          "rounds": 100,
+          "score": 518,
+          "steps": 28420,
+          "suicides": 38
+        },
+        {
+          "coins": 372,
+          "invalid": 153,
+          "kills": 36,
+          "rounds": 100,
+          "score": 552,
+          "steps": 27751,
+          "suicides": 39
+        },
+        {
+          "coins": 392,
+          "invalid": 186,
+          "kills": 33,
+          "rounds": 100,
+          "score": 557,
+          "steps": 28787,
+          "suicides": 36
+        }
+      ],
+      "snapshot": "experiments/seat_d3qn/m2_4/c3_v2/checkpoints/snapshots/m2_4_c3_t0175000.pt",
+      "suicide_rate": 0.37666666666666665,
+      "transition_count": 175000,
+      "validation_rounds": 300
+    },
+    {
+      "kills_per_round": 0.37,
+      "mean_official_score": 5.576666666666667,
+      "runs": [
+        {
+          "coins": 372,
+          "invalid": 168,
+          "kills": 34,
+          "rounds": 100,
+          "score": 542,
+          "steps": 27450,
+          "suicides": 39
+        },
+        {
+          "coins": 351,
+          "invalid": 145,
+          "kills": 38,
+          "rounds": 100,
+          "score": 541,
+          "steps": 27555,
+          "suicides": 36
+        },
+        {
+          "coins": 395,
+          "invalid": 177,
+          "kills": 39,
+          "rounds": 100,
+          "score": 590,
+          "steps": 28515,
+          "suicides": 38
+        }
+      ],
+      "snapshot": "experiments/seat_d3qn/m2_4/c3_v2/checkpoints/snapshots/m2_4_c3_t0200000.pt",
+      "suicide_rate": 0.37666666666666665,
+      "transition_count": 200000,
+      "validation_rounds": 300
+    },
+    {
+      "kills_per_round": 0.37333333333333335,
+      "mean_official_score": 5.68,
+      "runs": [
+        {
+          "coins": 383,
+          "invalid": 149,
+          "kills": 38,
+          "rounds": 100,
+          "score": 573,
+          "steps": 29090,
+          "suicides": 35
+        },
+        {
+          "coins": 378,
+          "invalid": 169,
+          "kills": 38,
+          "rounds": 100,
+          "score": 568,
+          "steps": 29603,
+          "suicides": 37
+        },
+        {
+          "coins": 383,
+          "invalid": 158,
+          "kills": 36,
+          "rounds": 100,
+          "score": 563,
+          "steps": 27584,
+          "suicides": 37
+        }
+      ],
+      "snapshot": "experiments/seat_d3qn/m2_4/c3_v2/checkpoints/snapshots/m2_4_c3_t0225000.pt",
+      "suicide_rate": 0.36333333333333334,
+      "transition_count": 225000,
+      "validation_rounds": 300
+    },
+    {
+      "kills_per_round": 0.31666666666666665,
+      "mean_official_score": 5.303333333333334,
+      "runs": [
+        {
+          "coins": 381,
+          "invalid": 123,
+          "kills": 28,
+          "rounds": 100,
+          "score": 521,
+          "steps": 27214,
+          "suicides": 41
+        },
+        {
+          "coins": 374,
+          "invalid": 157,
+          "kills": 36,
+          "rounds": 100,
+          "score": 554,
+          "steps": 27882,
+          "suicides": 37
+        },
+        {
+          "coins": 361,
+          "invalid": 136,
+          "kills": 31,
+          "rounds": 100,
+          "score": 516,
+          "steps": 27441,
+          "suicides": 37
+        }
+      ],
+      "snapshot": "experiments/seat_d3qn/m2_4/c3_v2/checkpoints/snapshots/m2_4_c3_t0250000.pt",
+      "suicide_rate": 0.38333333333333336,
+      "transition_count": 250000,
+      "validation_rounds": 300
+    },
+    {
+      "kills_per_round": 0.33666666666666667,
+      "mean_official_score": 5.433333333333334,
+      "runs": [
+        {
+          "coins": 349,
+          "invalid": 188,
+          "kills": 32,
+          "rounds": 100,
+          "score": 509,
+          "steps": 27881,
+          "suicides": 38
+        },
+        {
+          "coins": 387,
+          "invalid": 140,
+          "kills": 33,
+          "rounds": 100,
+          "score": 552,
+          "steps": 26117,
+          "suicides": 43
+        },
+        {
+          "coins": 389,
+          "invalid": 189,
+          "kills": 36,
+          "rounds": 100,
+          "score": 569,
+          "steps": 28597,
+          "suicides": 36
+        }
+      ],
+      "snapshot": "experiments/seat_d3qn/m2_4/c3_v2/checkpoints/snapshots/m2_4_c3_t0275000.pt",
+      "suicide_rate": 0.39,
+      "transition_count": 275000,
+      "validation_rounds": 300
+    },
+    {
+      "kills_per_round": 0.3233333333333333,
+      "mean_official_score": 5.283333333333333,
+      "runs": [
+        {
+          "coins": 372,
+          "invalid": 158,
+          "kills": 38,
+          "rounds": 100,
+          "score": 562,
+          "steps": 28047,
+          "suicides": 38
+        },
+        {
+          "coins": 373,
+          "invalid": 110,
+          "kills": 33,
+          "rounds": 100,
+          "score": 538,
+          "steps": 25896,
+          "suicides": 45
+        },
+        {
+          "coins": 355,
+          "invalid": 163,
+          "kills": 26,
+          "rounds": 100,
+          "score": 485,
+          "steps": 26322,
+          "suicides": 43
+        }
+      ],
+      "snapshot": "experiments/seat_d3qn/m2_4/c3_v2/checkpoints/snapshots/m2_4_c3_t0300000.pt",
+      "suicide_rate": 0.42,
+      "transition_count": 300000,
+      "validation_rounds": 300
+    },
+    {
+      "kills_per_round": 0.31666666666666665,
+      "mean_official_score": 5.233333333333333,
+      "runs": [
+        {
+          "coins": 380,
+          "invalid": 151,
+          "kills": 29,
+          "rounds": 100,
+          "score": 525,
+          "steps": 29176,
+          "suicides": 38
+        },
+        {
+          "coins": 357,
+          "invalid": 151,
+          "kills": 40,
+          "rounds": 100,
+          "score": 557,
+          "steps": 27686,
+          "suicides": 38
+        },
+        {
+          "coins": 358,
+          "invalid": 158,
+          "kills": 26,
+          "rounds": 100,
+          "score": 488,
+          "steps": 28008,
+          "suicides": 33
+        }
+      ],
+      "snapshot": "experiments/seat_d3qn/m2_4/c3_v2/checkpoints/snapshots/m2_4_c3_t0325000.pt",
+      "suicide_rate": 0.36333333333333334,
+      "transition_count": 325000,
+      "validation_rounds": 300
+    },
+    {
+      "kills_per_round": 0.26,
+      "mean_official_score": 5.003333333333333,
+      "runs": [
+        {
+          "coins": 357,
+          "invalid": 157,
+          "kills": 20,
+          "rounds": 100,
+          "score": 457,
+          "steps": 26494,
+          "suicides": 40
+        },
+        {
+          "coins": 385,
+          "invalid": 172,
+          "kills": 33,
+          "rounds": 100,
+          "score": 550,
+          "steps": 29896,
+          "suicides": 38
+        },
+        {
+          "coins": 369,
+          "invalid": 134,
+          "kills": 25,
+          "rounds": 100,
+          "score": 494,
+          "steps": 28131,
+          "suicides": 33
+        }
+      ],
+      "snapshot": "experiments/seat_d3qn/m2_4/c3_v2/checkpoints/snapshots/m2_4_c3_t0350000.pt",
+      "suicide_rate": 0.37,
+      "transition_count": 350000,
+      "validation_rounds": 300
+    },
+    {
+      "kills_per_round": 0.3333333333333333,
+      "mean_official_score": 5.22,
+      "runs": [
+        {
+          "coins": 350,
+          "invalid": 160,
+          "kills": 38,
+          "rounds": 100,
+          "score": 540,
+          "steps": 26530,
+          "suicides": 40
+        },
+        {
+          "coins": 354,
+          "invalid": 160,
+          "kills": 33,
+          "rounds": 100,
+          "score": 519,
+          "steps": 27279,
+          "suicides": 37
+        },
+        {
+          "coins": 362,
+          "invalid": 138,
+          "kills": 29,
+          "rounds": 100,
+          "score": 507,
+          "steps": 28713,
+          "suicides": 34
+        }
+      ],
+      "snapshot": "experiments/seat_d3qn/m2_4/c3_v2/checkpoints/snapshots/m2_4_c3_t0375000.pt",
+      "suicide_rate": 0.37,
+      "transition_count": 375000,
+      "validation_rounds": 300
+    },
+    {
+      "kills_per_round": 0.31333333333333335,
+      "mean_official_score": 5.333333333333333,
+      "runs": [
+        {
+          "coins": 381,
+          "invalid": 180,
+          "kills": 31,
+          "rounds": 100,
+          "score": 536,
+          "steps": 28610,
+          "suicides": 37
+        },
+        {
+          "coins": 364,
+          "invalid": 158,
+          "kills": 28,
+          "rounds": 100,
+          "score": 504,
+          "steps": 27973,
+          "suicides": 34
+        },
+        {
+          "coins": 385,
+          "invalid": 148,
+          "kills": 35,
+          "rounds": 100,
+          "score": 560,
+          "steps": 29971,
+          "suicides": 34
+        }
+      ],
+      "snapshot": "experiments/seat_d3qn/m2_4/c3_v2/checkpoints/snapshots/m2_4_c3_t0400000.pt",
+      "suicide_rate": 0.35,
+      "transition_count": 400000,
+      "validation_rounds": 300
+    },
+    {
+      "kills_per_round": 0.31666666666666665,
+      "mean_official_score": 5.25,
+      "runs": [
+        {
+          "coins": 362,
+          "invalid": 134,
+          "kills": 27,
+          "rounds": 100,
+          "score": 497,
+          "steps": 29321,
+          "suicides": 31
+        },
+        {
+          "coins": 360,
+          "invalid": 196,
+          "kills": 45,
+          "rounds": 100,
+          "score": 585,
+          "steps": 29796,
+          "suicides": 31
+        },
+        {
+          "coins": 378,
+          "invalid": 222,
+          "kills": 23,
+          "rounds": 100,
+          "score": 493,
+          "steps": 27404,
+          "suicides": 38
+        }
+      ],
+      "snapshot": "experiments/seat_d3qn/m2_4/c3_v2/checkpoints/snapshots/m2_4_c3_t0425000.pt",
+      "suicide_rate": 0.3333333333333333,
+      "transition_count": 425000,
+      "validation_rounds": 300
+    },
+    {
+      "kills_per_round": 0.3333333333333333,
+      "mean_official_score": 5.506666666666667,
+      "runs": [
+        {
+          "coins": 407,
+          "invalid": 159,
+          "kills": 27,
+          "rounds": 100,
+          "score": 542,
+          "steps": 28104,
+          "suicides": 33
+        },
+        {
+          "coins": 374,
+          "invalid": 185,
+          "kills": 38,
+          "rounds": 100,
+          "score": 564,
+          "steps": 28632,
+          "suicides": 35
+        },
+        {
+          "coins": 371,
+          "invalid": 131,
+          "kills": 35,
+          "rounds": 100,
+          "score": 546,
+          "steps": 25502,
+          "suicides": 44
+        }
+      ],
+      "snapshot": "experiments/seat_d3qn/m2_4/c3_v2/checkpoints/snapshots/m2_4_c3_t0450000.pt",
+      "suicide_rate": 0.37333333333333335,
+      "transition_count": 450000,
+      "validation_rounds": 300
+    },
+    {
+      "kills_per_round": 0.37666666666666665,
+      "mean_official_score": 5.7,
+      "runs": [
+        {
+          "coins": 390,
+          "invalid": 151,
+          "kills": 37,
+          "rounds": 100,
+          "score": 575,
+          "steps": 28973,
+          "suicides": 38
+        },
+        {
+          "coins": 359,
+          "invalid": 140,
+          "kills": 35,
+          "rounds": 100,
+          "score": 534,
+          "steps": 27687,
+          "suicides": 41
+        },
+        {
+          "coins": 396,
+          "invalid": 133,
+          "kills": 41,
+          "rounds": 100,
+          "score": 601,
+          "steps": 28700,
+          "suicides": 35
+        }
+      ],
+      "snapshot": "experiments/seat_d3qn/m2_4/c3_v2/checkpoints/snapshots/m2_4_c3_t0475000.pt",
+      "suicide_rate": 0.38,
+      "transition_count": 475000,
+      "validation_rounds": 300
+    },
+    {
+      "kills_per_round": 0.31666666666666665,
+      "mean_official_score": 5.316666666666666,
+      "runs": [
+        {
+          "coins": 371,
+          "invalid": 192,
+          "kills": 29,
+          "rounds": 100,
+          "score": 516,
+          "steps": 28156,
+          "suicides": 39
+        },
+        {
+          "coins": 365,
+          "invalid": 166,
+          "kills": 31,
+          "rounds": 100,
+          "score": 520,
+          "steps": 28894,
+          "suicides": 38
+        },
+        {
+          "coins": 384,
+          "invalid": 183,
+          "kills": 35,
+          "rounds": 100,
+          "score": 559,
+          "steps": 27105,
+          "suicides": 40
+        }
+      ],
+      "snapshot": "experiments/seat_d3qn/m2_4/c3_v2/checkpoints/snapshots/m2_4_c3_t0500000.pt",
+      "suicide_rate": 0.39,
+      "transition_count": 500000,
+      "validation_rounds": 300
+    }
+  ],
+  "confirmation_candidates": [
+    {
+      "kills_per_round": 0.3566666666666667,
+      "mean_official_score": 5.528333333333333,
+      "runs": [
+        {
+          "coins": 390,
+          "invalid": 151,
+          "kills": 37,
+          "rounds": 100,
+          "score": 575,
+          "steps": 28973,
+          "suicides": 38
+        },
+        {
+          "coins": 359,
+          "invalid": 140,
+          "kills": 35,
+          "rounds": 100,
+          "score": 534,
+          "steps": 27687,
+          "suicides": 41
+        },
+        {
+          "coins": 396,
+          "invalid": 133,
+          "kills": 41,
+          "rounds": 100,
+          "score": 601,
+          "steps": 28700,
+          "suicides": 35
+        },
+        {
+          "coins": 377,
+          "invalid": 177,
+          "kills": 41,
+          "rounds": 100,
+          "score": 582,
+          "steps": 29371,
+          "suicides": 33
+        },
+        {
+          "coins": 368,
+          "invalid": 169,
+          "kills": 30,
+          "rounds": 100,
+          "score": 518,
+          "steps": 27541,
+          "suicides": 41
+        },
+        {
+          "coins": 357,
+          "invalid": 168,
+          "kills": 30,
+          "rounds": 100,
+          "score": 507,
+          "steps": 27977,
+          "suicides": 34
+        }
+      ],
+      "snapshot": "experiments/seat_d3qn/m2_4/c3_v2/checkpoints/snapshots/m2_4_c3_t0475000.pt",
+      "suicide_rate": 0.37,
+      "transition_count": 475000,
+      "validation_rounds": 600
+    },
+    {
+      "kills_per_round": 0.35,
+      "mean_official_score": 5.49,
+      "runs": [
+        {
+          "coins": 383,
+          "invalid": 149,
+          "kills": 38,
+          "rounds": 100,
+          "score": 573,
+          "steps": 29090,
+          "suicides": 35
+        },
+        {
+          "coins": 378,
+          "invalid": 169,
+          "kills": 38,
+          "rounds": 100,
+          "score": 568,
+          "steps": 29603,
+          "suicides": 37
+        },
+        {
+          "coins": 383,
+          "invalid": 158,
+          "kills": 36,
+          "rounds": 100,
+          "score": 563,
+          "steps": 27584,
+          "suicides": 37
+        },
+        {
+          "coins": 350,
+          "invalid": 159,
+          "kills": 40,
+          "rounds": 100,
+          "score": 550,
+          "steps": 29446,
+          "suicides": 35
+        },
+        {
+          "coins": 358,
+          "invalid": 215,
+          "kills": 27,
+          "rounds": 100,
+          "score": 493,
+          "steps": 27298,
+          "suicides": 38
+        },
+        {
+          "coins": 392,
+          "invalid": 200,
+          "kills": 31,
+          "rounds": 100,
+          "score": 547,
+          "steps": 30381,
+          "suicides": 30
+        }
+      ],
+      "snapshot": "experiments/seat_d3qn/m2_4/c3_v2/checkpoints/snapshots/m2_4_c3_t0225000.pt",
+      "suicide_rate": 0.35333333333333333,
+      "transition_count": 225000,
+      "validation_rounds": 600
+    },
+    {
+      "kills_per_round": 0.35333333333333333,
+      "mean_official_score": 5.49,
+      "runs": [
+        {
+          "coins": 404,
+          "invalid": 156,
+          "kills": 39,
+          "rounds": 100,
+          "score": 599,
+          "steps": 30877,
+          "suicides": 33
+        },
+        {
+          "coins": 354,
+          "invalid": 150,
+          "kills": 27,
+          "rounds": 100,
+          "score": 489,
+          "steps": 26768,
+          "suicides": 38
+        },
+        {
+          "coins": 373,
+          "invalid": 141,
+          "kills": 37,
+          "rounds": 100,
+          "score": 558,
+          "steps": 27445,
+          "suicides": 36
+        },
+        {
+          "coins": 383,
+          "invalid": 153,
+          "kills": 45,
+          "rounds": 100,
+          "score": 608,
+          "steps": 27269,
+          "suicides": 43
+        },
+        {
+          "coins": 364,
+          "invalid": 166,
+          "kills": 36,
+          "rounds": 100,
+          "score": 544,
+          "steps": 28162,
+          "suicides": 41
+        },
+        {
+          "coins": 356,
+          "invalid": 154,
+          "kills": 28,
+          "rounds": 100,
+          "score": 496,
+          "steps": 26559,
+          "suicides": 41
+        }
+      ],
+      "snapshot": "experiments/seat_d3qn/m2_4/c3_v2/checkpoints/snapshots/m2_4_c3_t0000000.pt",
+      "suicide_rate": 0.38666666666666666,
+      "transition_count": 0,
+      "validation_rounds": 600
+    }
+  ],
+  "confirmation_seeds": [
+    8401,
+    8402,
+    8403
+  ],
+  "guardrail": {
+    "baseline_transition": 0,
+    "score_exception": 0.3,
+    "score_tie_window": 0.1,
+    "suicide_tolerance": 0.05
+  },
+  "opponents": [
+    "peaceful_agent",
+    "coin_collector_agent",
+    "rule_based_agent"
+  ],
+  "rounds_per_seed": 100,
+  "selection_metric": "score_with_frozen_c1_safety_guardrail",
+  "validation_seeds": [
+    8301,
+    8302,
+    8303
+  ]
+}

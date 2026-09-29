@@ -1,0 +1,175 @@
+{
+    "by_agent": {
+        "coin_collector_agent": {
+            "bombs": 122,
+            "coins": 22,
+            "crates": 356,
+            "invalid": 18,
+            "kills": 1,
+            "moves": 1092,
+            "rounds": 20,
+            "score": 27,
+            "steps": 1232,
+            "suicides": 1,
+            "time": 0.7778863906860352
+        },
+        "m2_4_noisy_agent": {
+            "bombs": 82,
+            "coins": 20,
+            "crates": 187,
+            "invalid": 2,
+            "moves": 425,
+            "rounds": 20,
+            "score": 20,
+            "steps": 663,
+            "suicides": 9,
+            "time": 0.41094183921813965
+        },
+        "rule_based_agent": {
+            "bombs": 123,
+            "coins": 17,
+            "crates": 349,
+            "invalid": 18,
+            "kills": 1,
+            "moves": 1104,
+            "rounds": 20,
+            "score": 22,
+            "steps": 1245,
+            "time": 0.7083866596221924
+        },
+        "seat_d3qn": {
+            "bombs": 160,
+            "coins": 22,
+            "crates": 339,
+            "invalid": 9,
+            "moves": 869,
+            "rounds": 20,
+            "score": 22,
+            "steps": 1282,
+            "suicides": 19,
+            "time": 1.0953128337860107
+        }
+    },
+    "by_round": {
+        "Round 01 (2026-09-20 21-37-16)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 6,
+            "suicides": 1
+        },
+        "Round 02 (2026-09-20 21-37-16)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 153,
+            "suicides": 2
+        },
+        "Round 03 (2026-09-20 21-37-17)": {
+            "coins": 1,
+            "kills": 0,
+            "steps": 20,
+            "suicides": 1
+        },
+        "Round 04 (2026-09-20 21-37-17)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 13,
+            "suicides": 1
+        },
+        "Round 05 (2026-09-20 21-37-18)": {
+            "coins": 3,
+            "kills": 0,
+            "steps": 56,
+            "suicides": 2
+        },
+        "Round 06 (2026-09-20 21-37-18)": {
+            "coins": 3,
+            "kills": 0,
+            "steps": 86,
+            "suicides": 2
+        },
+        "Round 07 (2026-09-20 21-37-18)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 103,
+            "suicides": 2
+        },
+        "Round 08 (2026-09-20 21-37-19)": {
+            "coins": 6,
+            "kills": 0,
+            "steps": 43,
+            "suicides": 1
+        },
+        "Round 09 (2026-09-20 21-37-19)": {
+            "coins": 6,
+            "kills": 0,
+            "steps": 60,
+            "suicides": 1
+        },
+        "Round 10 (2026-09-20 21-37-20)": {
+            "coins": 9,
+            "kills": 0,
+            "steps": 111,
+            "suicides": 1
+        },
+        "Round 11 (2026-09-20 21-37-20)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 125,
+            "suicides": 2
+        },
+        "Round 12 (2026-09-20 21-37-21)": {
+            "coins": 2,
+            "kills": 0,
+            "steps": 48,
+            "suicides": 2
+        },
+        "Round 13 (2026-09-20 21-37-21)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 5,
+            "suicides": 1
+        },
+        "Round 14 (2026-09-20 21-37-21)": {
+            "coins": 5,
+            "kills": 0,
+            "steps": 84,
+            "suicides": 2
+        },
+        "Round 15 (2026-09-20 21-37-22)": {
+            "coins": 2,
+            "kills": 0,
+            "steps": 41,
+            "suicides": 1
+        },
+        "Round 16 (2026-09-20 21-37-22)": {
+            "coins": 2,
+            "kills": 0,
+            "steps": 24,
+            "suicides": 1
+        },
+        "Round 17 (2026-09-20 21-37-22)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 7,
+            "suicides": 1
+        },
+        "Round 18 (2026-09-20 21-37-23)": {
+            "coins": 8,
+            "kills": 0,
+            "steps": 81,
+            "suicides": 2
+        },
+        "Round 19 (2026-09-20 21-37-23)": {
+            "coins": 9,
+            "kills": 1,
+            "steps": 209,
+            "suicides": 2
+        },
+        "Round 20 (2026-09-20 21-37-24)": {
+            "coins": 0,
+            "kills": 0,
+            "steps": 7,
+            "suicides": 1
+        }
+    }
+}
